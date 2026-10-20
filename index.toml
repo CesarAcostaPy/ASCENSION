@@ -2466,11 +2466,6 @@ hash = "ff4a82fe2e133059b9e7dc6b129806fd8c881d1240b59869a0a8ce899bd43ad1"
 metafile = true
 
 [[files]]
-file = "mods/sanctified-legacy.pw.toml"
-hash = "0d1b5a2f134f66027372661e18ef1a6f94089a4fa9148a3a8af54d48e8dbcaaa"
-metafile = true
-
-[[files]]
 file = "mods/serene-seasons-fix.pw.toml"
 hash = "bebf3f75940577c290d7ecb65e2c4d2bdc01a65f0f2e322ef6eba7a7275069f0"
 metafile = true
