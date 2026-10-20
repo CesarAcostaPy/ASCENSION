@@ -1,0 +1,13 @@
+name = "Rogues & Warriors (RPG Series)"
+filename = "rogues-forge-3.1.3+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3MKqoGuP/versions/lxNUs0rP/rogues-forge-3.1.3%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "a212f8d1f0c9883cd986e923e597bd026c1f8ce49de6d91719839592ae5809ba4f24056a0d306fda7f45428a0995490470d0cb320e21abcd7504201912b132c4"
+
+[update]
+[update.modrinth]
+mod-id = "3MKqoGuP"
+version = "lxNUs0rP"

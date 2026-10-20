@@ -1,0 +1,5 @@
+#hemovaporize will not effect these mobs
+hemovaporize_resistance_list = ["traveloptics:the_nightwarden_defeated", "minecraft:player"]
+#spell empowerment will not effect these spells
+no_spell_empowerment = ["irons_spellbooks:charge", "irons_spellbooks:haste", "irons_spellbooks:oakskin", "irons_spellbooks:heartstop", "irons_spellbooks:fortify", "traveloptics:shadowed_miasma", "traveloptics:vigor_siphon", "traveloptics:lingering_strain", "traveloptics:floodgate", "irons_spellbooks:blight", "irons_spellbooks:spider_aspect", "iss_csw:spell_empowerment"]
+

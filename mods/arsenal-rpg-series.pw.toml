@@ -1,0 +1,13 @@
+name = "Arsenal (RPG Series)"
+filename = "arsenal-forge-1.5.1+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LiP9Q3KV/versions/GZllPUlE/arsenal-forge-1.5.1%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "8d7f490a2a7319d290673101cfe4c6f464836cd0584cf61871fcc322dc21c4ea5c181dd795caaba20741a3f363b2a48760b899ba077a3fcf04485fcca95c6edc"
+
+[update]
+[update.modrinth]
+mod-id = "LiP9Q3KV"
+version = "GZllPUlE"

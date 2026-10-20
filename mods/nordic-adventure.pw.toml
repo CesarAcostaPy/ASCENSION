@@ -1,0 +1,13 @@
+name = "Nordic Adventure"
+filename = "nordic_structures-1.6.9-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IbXFBZcX/versions/cFt6AGK3/nordic_structures-1.6.9-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "d7584689f457b48e931c0c441c229fc25dd371a7b125befb71c9c4678a4e0132f8058f4551ee45807ebe126b88f9bfd411205e4746dd79aa0651317599bc0d0a"
+
+[update]
+[update.modrinth]
+mod-id = "IbXFBZcX"
+version = "cFt6AGK3"

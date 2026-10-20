@@ -1,0 +1,13 @@
+name = "TimberReplant"
+filename = "TimberReplant-4.8.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nd3r1Uep/versions/87vcwepU/TimberReplant-4.8.0.jar"
+hash-format = "sha512"
+hash = "86e9f5dfd2dd6f3fa4371a76274f5dfb6ca15a0ae98d58c78719aa663521f305f61e1d416b1a45c64ab2a2ba3c7ff87b547a2d50818c05d47f7c04af19f44d95"
+
+[update]
+[update.modrinth]
+mod-id = "nd3r1Uep"
+version = "87vcwepU"

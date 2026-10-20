@@ -1,0 +1,17 @@
+
+["Spice Of Magic Config"]
+	#Disable Spice Of Magic
+	disable_som = false
+	#The Base Mana on you start
+	#Range: 0.0 ~ 100.0
+	base_mana = 40.0
+	#Max Mana on you improve spells proficiency
+	#Range: 0.0 ~ 100.0
+	improve_mana = 30.0
+	#Spell Power on you improve spells proficiency
+	#Range: 0.0 ~ 10.0
+	spell_power_multiplier = 0.03
+	#The number of spells required for you to improve your spells proficiency
+	#Range: 0 ~ 10
+	spell_proficiency_count = 5
+

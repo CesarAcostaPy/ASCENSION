@@ -1,0 +1,13 @@
+name = "Ascension ModPack"
+author = "Cesar Acosta"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "f3e409a42623281f4d07060a1f41cd9b4c65b1bbd92b5bf90724e1135a68cbd8"
+
+[versions]
+forge = "47.3.0"
+minecraft = "1.20.1"

@@ -1,0 +1,13 @@
+name = "Archers Expansion (RPG Series Plus)"
+filename = "archers_expansion-forge-3.0.0+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1BHIIm4m/versions/tHRIDXen/archers_expansion-forge-3.0.0%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "7b1774255156c995bad850d6ff9795ddb641ede3de8448a001638ffd7cade13e582da7c3712f5f09b5b3d8b09a444b79e4fee58f6649a372f5e470af3dbdacd0"
+
+[update]
+[update.modrinth]
+mod-id = "1BHIIm4m"
+version = "tHRIDXen"

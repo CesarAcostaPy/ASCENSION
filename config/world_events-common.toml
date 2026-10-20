@@ -1,0 +1,556 @@
+#Scales how hard the weather events hit (earthquake shoves, lightning odds, gale gusts,
+#freezing, heat and ash damage...). 1.0 = default, 0.5 = gentler, 2.0 = brutal.
+#Range: 0.0 ~ 5.0
+weatherIntensity = 1.0
+
+[general]
+	#Random events (commands still work when off).
+	enabled = true
+	#How often the game tries to start a random event.
+	#Range: 5 ~ 3600
+	checkIntervalSeconds = 60
+	#Chance (0-1) per check that an event starts, once the cooldown is over.
+	#Range: 0.0 ~ 1.0
+	eventChance = 0.12
+	#Minimum time between the end of an event and the start of the next one.
+	#Range: 0 ~ 1440
+	minutesBetweenEvents = 15
+
+#World eras: every few days a new era starts. The world's threat level is the era plus
+#the boss milestones; it makes hostile mobs stronger, elites and dangerous events more frequent,
+#and unlocks events with a minThreat.
+[eras]
+	enabled = true
+	#In-game days (counted from world creation, /time set doesn't change it).
+	#Range: 1 ~ 1000
+	daysPerEra = 10
+	#Range: 1 ~ 100
+	maxEra = 10
+	#Extra max health for hostile mobs per threat level above 1 (0.1 = +10%).
+	#Range: 0.0 ~ 10.0
+	healthPerEra = 0.1
+	#Extra melee damage for hostile mobs per threat level above 1.
+	#Range: 0.0 ~ 10.0
+	damagePerEra = 0.05
+	#Extra Elite Mobs spawn chance per threat level above 1 (only with Elite Mobs).
+	#Range: 0.0 ~ 10.0
+	eliteChancePerEra = 0.1
+	#Extra chance of dangerous events per threat level above 1.
+	#Range: 0.0 ~ 10.0
+	eventChancePerEra = 0.1
+
+[progression]
+
+	#Boss milestones: the first kill of each boss type (forge:bosses tag: Wither, Ender Dragon,
+	#Cataclysm, Iron's Spells...) permanently raises the world's threat level.
+	[progression.boss_milestones]
+		enabled = true
+		#Range: 0 ~ 10
+		threatPerBoss = 1
+		#Cap of era + milestones.
+		#Range: 1 ~ 200
+		maxThreat = 20
+
+	#LevelZ threat: more elites spawn near players with a high LevelZ level (needs LevelZ and Elite Mobs).
+	[progression.levelz_threat]
+		#Extra elite chance per LevelZ level of the nearest player (0.01 = level 50 -> x1.5). 0 disables it.
+		#Range: 0.0 ~ 1.0
+		eliteChancePerLevel = 0.01
+
+	#Cursed zones: overworld chunks with a lot of killing (or player deaths) become cursed: more elites
+	#and dark particles. A splash potion of Healing thrown in the chunk cleanses it.
+	[progression.cursed_zones]
+		enabled = true
+		#Points needed to curse a chunk (points halve every in-game day).
+		#Range: 1 ~ 100000
+		threshold = 60
+		#Points per hostile mob killed by a player.
+		#Range: 0 ~ 1000
+		killPoints = 1
+		#Points per player death.
+		#Range: 0 ~ 1000
+		deathPoints = 10
+		#Range: 1.0 ~ 100.0
+		eliteChanceMultiplier = 2.0
+
+	#Insomnia: every night nobody sleeps makes night events more likely.
+	[progression.insomnia]
+		enabled = true
+		#Sleepless nights before players are warned.
+		#Range: 1 ~ 100
+		warnNights = 3
+		#Extra weight of night events and extra event chance at night, per sleepless night.
+		#Range: 0.0 ~ 10.0
+		bonusPerNight = 0.5
+
+#Each event: enabled, weight (relative chance), duration and minThreat (world threat level needed).
+[acid_rain]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 10
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 3
+	#Range: 1 ~ 1440
+	maxMinutes = 6
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+	#Flat durability lost per corrosion tick by the held items and each armor piece (Unbreaking applies).
+	#Range: 0 ~ 100
+	durabilityDamage = 2
+	#Seconds between corrosion ticks.
+	#Range: 1 ~ 60
+	corrosionIntervalSeconds = 2
+	#Extra durability lost per corrosion tick, as a percentage of the item's max durability,
+	#so diamond and netherite gear suffers as much as iron (1.0 = 1%).
+	#Range: 0.0 ~ 100.0
+	durabilityPercent = 1.0
+	#Whether acid rain can fully break items. When false they stop at 1 durability.
+	canBreakItems = false
+
+[blood_moon]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 8
+	#Duration in minutes (night events last until sunrise and ignore this).
+	#Range: 1 ~ 1440
+	minMinutes = 1
+	#Range: 1 ~ 1440
+	maxMinutes = 1
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+	#Elite Mobs spawn chance multiplier.
+	#Range: 1.0 ~ 100.0
+	eliteChanceMultiplier = 3.0
+	#XP (vanilla and LevelZ) dropped by hostile mobs.
+	#Range: 1.0 ~ 100.0
+	xpMultiplier = 2.0
+	#Extra mobs only spawn while fewer hostile mobs than this are near a player.
+	#Range: 0 ~ 200
+	maxMobsNearPlayer = 25
+
+[horde]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 8
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 6
+	#Range: 1 ~ 1440
+	maxMinutes = 6
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+	#Range: 1 ~ 20
+	waves = 3
+	#Mobs in the first wave; each wave adds 2 more, plus 2 per extra player nearby.
+	#Range: 1 ~ 100
+	baseMobs = 4
+
+[undead_night]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 8
+	#Duration in minutes (night events last until sunrise and ignore this).
+	#Range: 1 ~ 1440
+	minMinutes = 1
+	#Range: 1 ~ 1440
+	maxMinutes = 1
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+	#Chance (0-1) for an undead mob to come back once after dying (not when burning or killed with Smite).
+	#Range: 0.0 ~ 1.0
+	reviveChance = 0.3
+
+[boss_hunt]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 20
+	#Range: 1 ~ 1440
+	maxMinutes = 20
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+	#Range: 16 ~ 10000
+	minDistance = 150
+	#Range: 16 ~ 10000
+	maxDistance = 300
+	#Extra health on top of the Elite Mobs boss rank.
+	#Range: 1.0 ~ 100.0
+	healthMultiplier = 2.0
+	#Entity ids the hunted boss is picked from.
+	bossTypes = ["minecraft:zombie", "minecraft:husk", "minecraft:skeleton", "minecraft:stray", "minecraft:wither_skeleton", "minecraft:vindicator", "minecraft:piglin_brute"]
+
+[starfall]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 8
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 4
+	#Range: 1 ~ 1440
+	maxMinutes = 6
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+	#XP dropped by each star (plus the same amount of LevelZ XP with LevelZ).
+	#Range: 0 ~ 10000
+	xpPerStar = 20
+
+[eclipse]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 4
+	#Range: 1 ~ 1440
+	maxMinutes = 6
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[blizzard]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 7
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 3
+	#Range: 1 ~ 1440
+	maxMinutes = 5
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[heat_wave]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 7
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 4
+	#Range: 1 ~ 1440
+	maxMinutes = 6
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[thunderstorm]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 7
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 3
+	#Range: 1 ~ 1440
+	maxMinutes = 5
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[cursed_fog]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 3
+	#Range: 1 ~ 1440
+	maxMinutes = 5
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[meteor_shower]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 3
+	#Range: 1 ~ 1440
+	maxMinutes = 4
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[nether_rifts]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 4
+	#Range: 1 ~ 1440
+	maxMinutes = 6
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 3
+
+[gale]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 7
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 3
+	#Range: 1 ~ 1440
+	maxMinutes = 5
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[plague]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 5
+	#Range: 1 ~ 1440
+	maxMinutes = 8
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[sandstorm]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 8
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 3
+	#Range: 1 ~ 1440
+	maxMinutes = 5
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[earthquake]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 2
+	#Range: 1 ~ 1440
+	maxMinutes = 3
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[ash_fall]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 3
+	#Range: 1 ~ 1440
+	maxMinutes = 5
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 2
+
+[swarm]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 7
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 4
+	#Range: 1 ~ 1440
+	maxMinutes = 6
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[black_tide]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 8
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 4
+	#Range: 1 ~ 1440
+	maxMinutes = 6
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[phantom_night]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes (night events last until sunrise and ignore this).
+	#Range: 1 ~ 1440
+	minMinutes = 1
+	#Range: 1 ~ 1440
+	maxMinutes = 1
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[great_raid]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 6
+	#Range: 1 ~ 1440
+	maxMinutes = 8
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 2
+
+[abyss_echoes]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 4
+	#Range: 1 ~ 1440
+	maxMinutes = 6
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 2
+
+[arcane_storm]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 5
+	#Range: 1 ~ 1440
+	maxMinutes = 8
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+	#Iron's Spells mana regeneration multiplier during the storm.
+	#Range: 0.0 ~ 10.0
+	manaRegenMultiplier = 0.5
+	#Iron's Spells spell power multiplier during the storm.
+	#Range: 0.0 ~ 10.0
+	spellPowerMultiplier = 1.2
+
+[drought]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 5
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 8
+	#Range: 1 ~ 1440
+	maxMinutes = 12
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[soul_tide]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 5
+	#Range: 1 ~ 1440
+	maxMinutes = 8
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 2
+
+[gold_rush]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 5
+	#Range: 1 ~ 1440
+	maxMinutes = 8
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[harvest_blessing]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 6
+	#Range: 1 ~ 1440
+	maxMinutes = 10
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[caravan]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 5
+	#Duration in minutes.
+	#Range: 1 ~ 1440
+	minMinutes = 10
+	#Range: 1 ~ 1440
+	maxMinutes = 15
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+
+[aurora]
+	enabled = true
+	#Relative chance of being picked among the events that can start.
+	#Range: 0 ~ 1000
+	weight = 6
+	#Duration in minutes (night events last until sunrise and ignore this).
+	#Range: 1 ~ 1440
+	minMinutes = 1
+	#Range: 1 ~ 1440
+	maxMinutes = 1
+	#World threat level (era + boss milestones) needed for it to happen randomly.
+	#Range: 1 ~ 200
+	minThreat = 1
+	#XP multiplier for mob kills (LevelZ XP when LevelZ is installed, vanilla otherwise).
+	#Range: 1.0 ~ 100.0
+	xpMultiplier = 1.5
+

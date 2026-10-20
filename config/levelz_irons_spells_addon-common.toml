@@ -1,0 +1,22 @@
+#Levels of the spell's school skill required per spell level (level 1 spell = this many, level 10 = 10x).
+#Set to 0 to disable the spell casting requirement.
+#Range: 0 ~ 100
+skillLevelsPerSpellLevel = 5
+#Which LevelZ skill unlocks each spell school, as "school id=skill key".
+#Schools not listed here (or mapped to a skill that doesn't exist) use the general "magic" skill.
+schoolSkills = ["irons_spellbooks:fire=fire_magic", "irons_spellbooks:ice=ice_magic", "somakespells:aqua=aqua_magic", "traveloptics:aqua=aqua_magic", "irons_spellbooks:lightning=lightning_magic", "wind_spellbooks:wind=wind_magic", "gtbcs_geomancy_plus:geo=geo_magic", "irons_spellbooks:nature=nature_magic", "farmers_spell:gluttony=nature_magic", "irons_spellbooks:holy=holy_magic", "irons_spellbooks:blood=blood_magic", "irons_spellbooks:ender=ender_magic", "irons_spellbooks:void=ender_magic", "irons_spellbooks:evocation=evocation_magic", "cataclysm_spellbooks:technomancy=evocation_magic", "iss_csw:fusion=evocation_magic", "familiarslib:sound=evocation_magic", "irons_spellbooks:eldritch=dark_magic", "cataclysm_spellbooks:abyssal=dark_magic"]
+#Require LevelZ magic levels to equip spellbooks (from Iron's Spells and every addon that uses its SpellBook class).
+spellbookRequirements = true
+#Spellbooks with this many spell slots or fewer have no slot-based requirement.
+#Range: 0 ~ 50
+spellbookFreeSlots = 4
+#Magic levels required per spell slot above spellbookFreeSlots. Defaults: 5 slots = 4, 8 slots = 16, 10 slots = 24, 12 slots = 32.
+#Range: 0 ~ 100
+magicLevelsPerSpellbookSlot = 4
+#Minimum magic level for spellbooks with Rare rarity.
+#Range: 0 ~ 1000
+rareSpellbookLevel = 20
+#Minimum magic level for spellbooks with Epic rarity (unique and boss spellbooks).
+#Range: 0 ~ 1000
+epicSpellbookLevel = 35
+

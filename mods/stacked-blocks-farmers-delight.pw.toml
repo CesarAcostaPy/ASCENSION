@@ -1,0 +1,13 @@
+name = "Stacked Blocks: Farmer's Delight"
+filename = "stackedblocksfarmersdelight-25.02.13-1.20-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LQlQFBH9/versions/JyPT2WBY/stackedblocksfarmersdelight-25.02.13-1.20-forge.jar"
+hash-format = "sha512"
+hash = "19f578e2b140db99fa499856b149d8ab2a22a6c64d6640e171a9bfbcfaff05d190dcfb42258a40e3590d4ca63fe2edc47b2cca334eb52e6a102e0db403ddab28"
+
+[update]
+[update.modrinth]
+mod-id = "LQlQFBH9"
+version = "JyPT2WBY"

@@ -1,0 +1,40 @@
+
+["Nameless Wizard Stats"]
+	#The maximum damage Nameless Wizard can take in a single hit, as a percentage of its max health. (e.g., 0.04 = 4%)
+	#Range: 0.0 ~ 1.0
+	hurt_limit = 0.04
+	#The Max health of Nameless Wizard 
+	#Range: 1.0 ~ 1.0E9
+	max_hp = 220.0
+	#Multiplier for Nameless Wizard's spell damage. Default: 1.0
+	#Range: 0.0 ~ 10.0
+	spell_power_multiplier = 1.0
+	#Multiplier for Nameless Wizard's health-based attack (percent damage). Default: 1.0
+	#Range: 0.0 ~ 100.0
+	health_attack_multiplier = 1.0
+
+	#Settings for Nameless Wizard AI Goals (Intervals in Ticks, 20 ticks = 1s)
+	["Nameless Wizard Stats"."Nameless Wizard Spell Cooldowns"]
+		#Range: 1 ~ 2000
+		blast_spell_interval = 10
+		#Range: 1 ~ 2000
+		shoot_spell_interval = 10
+		#Range: 1 ~ 2000
+		mini_shot_spell_interval = 6
+		#Range: 1 ~ 2000
+		firework_spell_interval = 15
+		#Range: 1 ~ 2000
+		vex_spell_interval = 25
+		#Range: 1 ~ 2000
+		creeper_spell_interval = 25
+		#Range: 1 ~ 2000
+		gust_spell_interval = 5
+		#Range: 1 ~ 2000
+		teleport_spell_interval = 5
+		#Range: 1 ~ 2000
+		come_back_spell_interval = 5
+		#Range: 1 ~ 2000
+		start_geo_interval = 10
+		#Range: 1 ~ 2000
+		break_geo_interval = 10
+

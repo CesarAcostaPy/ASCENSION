@@ -1,0 +1,111 @@
+
+[general]
+	#Whether mobs from monster spawners can roll an elite rank (off by default so mob farms don't fill up with elites).
+	allowSpawners = false
+	#Entity ids that never become elites; "modid:*" excludes a whole mod.
+	#Entities in the forge:bosses tag are always excluded (Cataclysm, Iron's Spells, Alex's Caves and
+	#Travel Optics tag theirs); the defaults below cover modded bosses that aren't tagged.
+	entityBlacklist = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:warden", "minecraft:elder_guardian"]
+	#Extra loot (data/elite_mobs/loot_tables/elites/<rank>.json) only drops when a player took part in the kill.
+	lootRequiresPlayer = true
+	#Boss-rank mobs never despawn.
+	bossesPersistent = true
+	#Entity ids (or "modid:*") that can become elites even though they aren't hostile monsters
+	#(only Enemy mobs are eligible by default, e.g. neutral animals from mods are not).
+	extraEntities = []
+	#Mobs whose normal max health is at least this are treated as bosses and never become elites
+	#(catches modded bosses missing from the blacklist). 0 disables the check.
+	#Range: 0.0 ~ 100000.0
+	maxBaseHealth = 150.0
+	#Spawn chances of every rank are multiplied by this during full moon nights (dimensions with a day/night cycle only). 1 disables it.
+	#Range: 1.0 ~ 100.0
+	fullMoonMultiplier = 2.5
+	#Abilities that are never rolled. Ids: swift, armored, fiery, venomous, withering, freezing, weakening, vampiric, thorny, regenerating, brute, blinding, levitating, webbing, frenzied, leaper, teleporter, summoner, pyromancer, grappler, enraged
+	disabledAbilities = []
+	#Seconds the cobwebs thrown by the 'webbing' ability last before disappearing.
+	#Range: 1 ~ 600
+	webDurationSeconds = 6
+
+#Each rank is rolled separately when a hostile mob spawns, rarest first (boss, champion, elite).
+#Multipliers are applied to the mob's normal value; armor values are added on top.
+[elite]
+	#Chance (0-1) for a hostile mob to spawn with this rank.
+	#Range: 0.0 ~ 1.0
+	spawnChance = 0.05
+	#Range: 1.0 ~ 1000.0
+	healthMultiplier = 2.0
+	#Applies to every damage the mob deals (melee, arrows, explosions...).
+	#Range: 0.0 ~ 1000.0
+	damageMultiplier = 1.5
+	#Range: 0.0 ~ 30.0
+	bonusArmor = 4.0
+	#Range: 0.0 ~ 20.0
+	bonusArmorToughness = 0.0
+	#Range: 0.1 ~ 5.0
+	speedMultiplier = 1.1
+	#Range: 0.0 ~ 1.0
+	knockbackResistance = 0.1
+	#Vanilla XP dropped.
+	#Range: 0.0 ~ 1000.0
+	xpMultiplier = 3.0
+	#LevelZ XP dropped (only when LevelZ is installed).
+	#Range: 0.0 ~ 1000.0
+	levelzXpMultiplier = 3.0
+	#Number of random abilities.
+	#Range: 0 ~ 21
+	abilities = 1
+
+[champion]
+	#Chance (0-1) for a hostile mob to spawn with this rank.
+	#Range: 0.0 ~ 1.0
+	spawnChance = 0.015
+	#Range: 1.0 ~ 1000.0
+	healthMultiplier = 3.5
+	#Applies to every damage the mob deals (melee, arrows, explosions...).
+	#Range: 0.0 ~ 1000.0
+	damageMultiplier = 2.0
+	#Range: 0.0 ~ 30.0
+	bonusArmor = 8.0
+	#Range: 0.0 ~ 20.0
+	bonusArmorToughness = 2.0
+	#Range: 0.1 ~ 5.0
+	speedMultiplier = 1.2
+	#Range: 0.0 ~ 1.0
+	knockbackResistance = 0.3
+	#Vanilla XP dropped.
+	#Range: 0.0 ~ 1000.0
+	xpMultiplier = 6.0
+	#LevelZ XP dropped (only when LevelZ is installed).
+	#Range: 0.0 ~ 1000.0
+	levelzXpMultiplier = 6.0
+	#Number of random abilities.
+	#Range: 0 ~ 21
+	abilities = 2
+
+[boss]
+	#Chance (0-1) for a hostile mob to spawn with this rank.
+	#Range: 0.0 ~ 1.0
+	spawnChance = 0.004
+	#Range: 1.0 ~ 1000.0
+	healthMultiplier = 6.0
+	#Applies to every damage the mob deals (melee, arrows, explosions...).
+	#Range: 0.0 ~ 1000.0
+	damageMultiplier = 2.75
+	#Range: 0.0 ~ 30.0
+	bonusArmor = 12.0
+	#Range: 0.0 ~ 20.0
+	bonusArmorToughness = 4.0
+	#Range: 0.1 ~ 5.0
+	speedMultiplier = 1.25
+	#Range: 0.0 ~ 1.0
+	knockbackResistance = 0.6
+	#Vanilla XP dropped.
+	#Range: 0.0 ~ 1000.0
+	xpMultiplier = 12.0
+	#LevelZ XP dropped (only when LevelZ is installed).
+	#Range: 0.0 ~ 1000.0
+	levelzXpMultiplier = 12.0
+	#Number of random abilities.
+	#Range: 0 ~ 21
+	abilities = 3
+

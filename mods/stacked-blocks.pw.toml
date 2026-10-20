@@ -1,0 +1,13 @@
+name = "Stacked Blocks"
+filename = "stackedblocks-25.02.13-1.20-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UYrNpKJN/versions/gjhXd9O9/stackedblocks-25.02.13-1.20-forge.jar"
+hash-format = "sha512"
+hash = "c8dae3b39104b6efaaed917182de7333c7ae0990b8f325f2fe0dc476a80041db2f2805ef4777e2e04a468499370eb69d4a1deb261a7a92870d7c5c040dbf779c"
+
+[update]
+[update.modrinth]
+mod-id = "UYrNpKJN"
+version = "gjhXd9O9"

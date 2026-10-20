@@ -1,0 +1,13 @@
+name = "More RPG Library"
+filename = "more_rpg_library-forge-2.7.2+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Wkc3lwHo/versions/NyBGoowY/more_rpg_library-forge-2.7.2%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "9f89db098a951a23d35de4379a7901c4eb8ad40f34659dd3b3a35b7db258e2fd6790d8d353932940a414d1bd5424596ac33500cb2d03d691972ddaa08a2e73c8"
+
+[update]
+[update.modrinth]
+mod-id = "Wkc3lwHo"
+version = "NyBGoowY"

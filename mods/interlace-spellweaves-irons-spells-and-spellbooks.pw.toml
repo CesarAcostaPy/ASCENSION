@@ -1,0 +1,13 @@
+name = "Interlace SpellWeaves: Iron's Spells and Spellbooks Addon"
+filename = "iss_csw-0.2.4-fix-3.15compatible.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "85074d7c73bcc1cd6dba9d48bf9ec477234a3f1c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8191134
+project-id = 1478295

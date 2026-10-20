@@ -1,0 +1,13 @@
+name = "Armory (RPG Series)"
+filename = "armory-forge-1.5.3+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PJvJUdGw/versions/G2RyTR9L/armory-forge-1.5.3%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "fb72a4337353a22509a21bee27e2b091a0727cd58734a3bdb09140bd9e8d1535ebcb8dcf5d96eb07a53968611fffbe78cb679a398441c5da3fb8d62b381ca5e7"
+
+[update]
+[update.modrinth]
+mod-id = "PJvJUdGw"
+version = "G2RyTR9L"

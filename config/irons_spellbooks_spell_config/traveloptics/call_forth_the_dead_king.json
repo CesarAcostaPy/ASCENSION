@@ -1,0 +1,5 @@
+{
+  "_comment": "Disabled: summons traveloptics' Enraged Dead King, which uses DeadKingAnimatedWarlockAttackGoal, a class removed in Iron's Spells 3.16.x (crashes the server when cast).",
+  "irons_spellbooks:enabled": false,
+  "irons_spellbooks:allow_crafting": false
+}

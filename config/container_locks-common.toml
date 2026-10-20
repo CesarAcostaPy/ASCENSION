@@ -1,0 +1,7 @@
+#Operators (permission level 2+) can open and break locked containers of other players.
+opsBypass = true
+#Locked containers are not destroyed by explosions.
+protectFromExplosions = true
+#Other players can't place blocks with a block entity (hoppers, chests, pipes, Create funnels/chutes...) next to a container locked by someone else, so it can't be drained or joined into a double chest.
+blockAdjacentStorage = true
+

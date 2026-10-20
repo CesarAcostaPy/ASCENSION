@@ -1,0 +1,13 @@
+name = "Witcher (RPG Series Plus)"
+filename = "witcher-class-mod-forge-3.1.4+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4eW1c7Gj/versions/Aduovtc1/witcher-class-mod-forge-3.1.4%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "8267549c3e432a30f5c61a6da3cf13191cadc60109ecb9077ebc511d9cca74c1340b17d2a6d6e3c16d4443363e22632dc1e7b775c6ee61fcb07e20cbd65f0477"
+
+[update]
+[update.modrinth]
+mod-id = "4eW1c7Gj"
+version = "Aduovtc1"

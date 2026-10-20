@@ -1,0 +1,8 @@
+@"
+*.tmp
+*.mrpack
+modpack-state.json
+packwiz-installer-bootstrap.jar
+packwiz-installer.jar
+packwiz.json
+"@ | Set-Content .gitignore

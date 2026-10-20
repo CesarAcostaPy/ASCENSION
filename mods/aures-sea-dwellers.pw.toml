@@ -1,0 +1,13 @@
+name = "Aures - Sea Dwellers"
+filename = "realmrpg_seadwellers_2.9.9_forge_1.20.1 (2).jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/g2dqKlDd/versions/g0mha3xU/realmrpg_seadwellers_2.9.9_forge_1.20.1%20%282%29.jar"
+hash-format = "sha512"
+hash = "d2548f2db7287011d9d23c687bf4f50b6a79f932d87a7d11e0c6068d6d8fb181f777a111ecf1563d31104cdeca9a2901c14d0cd3f20936248cc0e476503c928c"
+
+[update]
+[update.modrinth]
+mod-id = "g2dqKlDd"
+version = "g0mha3xU"

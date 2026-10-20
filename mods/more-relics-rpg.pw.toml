@@ -1,0 +1,13 @@
+name = "More Relics (RPG Series Plus)"
+filename = "more_relics-forge-1.3.1+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IZ3b4kEa/versions/O6XxYl2h/more_relics-forge-1.3.1%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "6a5a121c1be7083e59d615eef44cceb1674026c0f66311e5aebd033c24aa458d3b4b853afc1aeecdc6b709b461ce7662d685e70c19519a0fb84f389642ef15cf"
+
+[update]
+[update.modrinth]
+mod-id = "IZ3b4kEa"
+version = "O6XxYl2h"

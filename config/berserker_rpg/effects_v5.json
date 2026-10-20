@@ -1,0 +1,47 @@
+{
+  "effects": {
+    "berserker_rpg:rage": {
+      "attributes": [
+        {
+          "attribute": "more_rpg_classes:rage_modifier",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.02,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "berserker_rpg:blood_sacrifice": {
+      "attributes": []
+    },
+    "berserker_rpg:blood_reckoning": {
+      "attributes": []
+    },
+    "berserker_rpg:outrage": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "berserker_rpg:apprehend": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": -4.0,
+          "operation": "ADDITION"
+        }
+      ]
+    }
+  }
+}

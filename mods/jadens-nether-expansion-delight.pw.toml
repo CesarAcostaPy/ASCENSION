@@ -1,0 +1,13 @@
+name = "Jaden's Nether Expansion Delight"
+filename = "jadensnetherexpansiondelight-1.20.1-1.0.4a-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pYHupcoN/versions/oLvr2ZwN/jadensnetherexpansiondelight-1.20.1-1.0.4a-forge.jar"
+hash-format = "sha512"
+hash = "3ab686895a8f4f0045453ba22509f8acff833a31bbc7e7f4a4bfca3d36ea5003af80c11f724c2bc4a358f40529ac6e2ae16a35d40e8be1a15fc8d08ed6a16e80"
+
+[update]
+[update.modrinth]
+mod-id = "pYHupcoN"
+version = "oLvr2ZwN"

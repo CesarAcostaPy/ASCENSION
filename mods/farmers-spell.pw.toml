@@ -1,0 +1,13 @@
+name = "Farmer's Spell 'n Spell Book"
+filename = "farmers_spell-1.0.6_2-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UWV8H4F4/versions/O6ZK8XcV/farmers_spell-1.0.6_2-1.20.1.jar"
+hash-format = "sha512"
+hash = "8a44e3dd87581a769e8a66c25ce2d5ba19926df847f4939b5b147655001ba42d71c81e19c2b266ff96460a95e4cd03ab756644adef2a9e6ca0e5de217aebeed4"
+
+[update]
+[update.modrinth]
+mod-id = "UWV8H4F4"
+version = "O6ZK8XcV"

@@ -1,0 +1,163 @@
+#Maximum level: 0 = disabled
+#Range: > 0
+overallMaxLevel = 0
+#In combination with overallMaxLevel, only when all skills maxed
+allowHigherSkillLevel = false
+#Range: > 0
+startPoints = 5
+#Range: > 0
+pointsPerLevel = 1
+#Retain % of levels and skill points, 0 = hard mode
+#Range: 0 ~ 100
+levelRetainPercentage = 100
+#Anti mob-farm: less LevelZ xp from mobs killed in busy chunks,
+#hurt by the environment (falls, lava, suffocation...) or killed by fake players
+disableMobFarms = true
+#Strange potion resets all stats instead of one
+opStrangePotion = false
+#restrict hand usage when item not unlocked
+lockedHandUsage = false
+devMode = false
+#Range: 0.0 ~ 1.7976931348623157E308
+bowDamageBonus = 0.5
+#Range: 0.0 ~ 1.0
+bowDoubleDamageChanceBonus = 0.1
+#Range: 0.0 ~ 1.7976931348623157E308
+crossbowDamageBonus = 0.5
+#Range: 0.0 ~ 1.0
+crossbowDoubleDamageChanceBonus = 0.1
+#Range: 0.0 ~ 1.0
+itemDamageChanceBonus = 0.01
+#Range: 0.0 ~ 1.0
+potionEffectChanceBonus = 0.2
+#Range: 0.0 ~ 1.0
+twinBreedChanceBonus = 0.2
+#Range: 0.0 ~ 1.7976931348623157E308
+fallDamageReductionBonus = 0.2
+#Range: 0.0 ~ 1.0
+deathGraceChanceBonus = 0.2
+#Range: 0.0 ~ 1.7976931348623157E308
+tntStrengthBonus = 1.0
+#Range: 0.0 ~ 1.0
+priceDiscountBonus = 0.01
+#Range: 0.0 ~ 1.7976931348623157E308
+tradeXpBonus = 0.02
+#Range: 0.0 ~ 1.0
+miningDropChanceBonus = 0.01
+#Range: 0.0 ~ 1.0
+plantDropChanceBonus = 0.01
+#Range: > 0
+anvilXpCap = 30
+#Range: 0.0 ~ 1.0
+anvilXpDiscountBonus = 0.01
+#Range: 0.0 ~ 1.0
+anvilXpChanceBonus = 0.01
+#Range: 0.0 ~ 1.7976931348623157E308
+healthRegenBonus = 0.025
+#Range: 0.0 ~ 1.7976931348623157E308
+healthAbsorptionBonus = 4.0
+#Range: 0.0 ~ 1.0
+exhaustionReductionBonus = 0.02
+#Range: 0.0 ~ 1.0
+meleeKnockbackAttackChanceBonus = 0.01
+#Range: 0.0 ~ 1.0
+meleeCriticalAttackChanceBonus = 0.01
+#Range: 0.0 ~ 1.7976931348623157E308
+meleeCriticalAttackDamageBonus = 0.3
+#Range: 0.0 ~ 1.0
+meleeDoubleAttackDamageChanceBonus = 0.2
+#Range: 0.0 ~ 1.7976931348623157E308
+foodIncreasionBonus = 0.02
+#Range: 0.0 ~ 1.7976931348623157E308
+damageReflectionBonus = 0.02
+#Range: 0.0 ~ 1.0
+damageReflectionChanceBonus = 0.005
+#Range: 0.0 ~ 1.0
+evadingDamageChanceBonus = 0.1
+#XP equation: lvl^exponent * multiplicator + base
+#Range: 0.0 ~ 1.7976931348623157E308
+xpCostMultiplicator = 0.3
+#Range: > 0
+xpExponent = 2
+#Range: > 0
+xpBaseCost = 25
+#0 = no experience cap
+#Range: > 0
+xpMaxCost = 0
+resetCurrentXp = false
+dropXPbasedOnLvl = false
+#0.01 = 1% more xp per lvl
+#Range: 0.0 ~ 1.7976931348623157E308
+basedOnMultiplier = 0.01
+#Range: 0.0 ~ 1.7976931348623157E308
+breedingXPMultiplier = 1.0
+#Range: 0.0 ~ 1.7976931348623157E308
+bottleXPMultiplier = 1.0
+#Range: 0.0 ~ 1.7976931348623157E308
+dragonXPMultiplier = 0.5
+#Range: 0.0 ~ 1.7976931348623157E308
+fishingXPMultiplier = 0.8
+#Range: 0.0 ~ 1.7976931348623157E308
+furnaceXPMultiplier = 0.1
+#Range: 0.0 ~ 1.7976931348623157E308
+oreXPMultiplier = 1.0
+#Range: 0.0 ~ 1.7976931348623157E308
+tradingXPMultiplier = 0.3
+#Range: 0.0 ~ 1.7976931348623157E308
+mobXPMultiplier = 1.0
+#Whether mobs from spawners give LevelZ xp
+spawnerMobXP = false
+#Highlight locked blocks in red.
+highlightLocked = false
+inventorySkillLevel = true
+#Range: > -2147483648
+inventorySkillLevelPosX = 0
+#Range: > -2147483648
+inventorySkillLevelPosY = 0
+showLevelList = true
+showLevel = true
+#Switch levelz screen instead of closing with inventory key
+switchScreen = false
+showLockedBlockInfo = false
+#Range: > -2147483648
+lockedBlockInfoPosX = 0
+#Range: > -2147483648
+lockedBlockInfoPosY = 0
+restrictions = true
+defaultRestrictions = true
+#Remember to name your datapack json differently than default
+defaultSkills = true
+#Automatically assign skill level restrictions to weapons/armor/tools (vanilla and modded) that don't already have an explicit datapack restriction, based on their attack damage/armor attributes.
+autoScanEquipment = true
+#Auto-scan: required level for each equipment tier, starting at tier 0.
+#Tools/weapons use their material's attack damage bonus as the tier (wood/gold 0, stone 1, iron 2, diamond 3, netherite 4, modded materials keep counting).
+#Armor uses its material's chestplate defense + toughness, mapped onto the same tiers (leather 0, chainmail 1, iron 2, diamond 3, netherite 4).
+#Swords/other weapons use the melee skill, pickaxes/shovels mining, axes/hoes farming, armor defense. Requirements of 1 or less are dropped, so tier 0 is always free.
+autoScanTierLevels = [0, 3, 8, 15, 20]
+#Auto-scan: extra required levels per tier above the last entry of autoScanTierLevels (modded materials stronger than netherite).
+#Range: 0 ~ 1000
+autoScanLevelsPerExtraTier = 5
+#Auto-scan: highest requirement it can assign (explicit datapack restrictions aren't capped).
+#Range: 0 ~ 1000
+autoScanMaxLevel = 60
+#Auto-scan: write every automatically assigned restriction to logs/levelz-autoscan.txt, to review modded equipment.
+autoScanReport = true
+#Auto-scan: base level assigned to bows/crossbows. Used as-is for vanilla bow/crossbow (no scalable attack damage attribute); added on top of the scaled amount below for modded bows that do define one.
+#Range: > 0
+archeryBaseLevel = 3
+#Auto-scan: for bows/crossbows that DO define an attack damage attribute (some modded ones do, even though vanilla bow/crossbow don't), level = round(archeryBaseLevel + attackDamageBonus * multiplier) instead of the flat archeryBaseLevel alone.
+#Range: 0.0 ~ 1.7976931348623157E308
+archeryAttackDamageMultiplier = 1.47
+#Auto-scan: for bows/crossbows with no attack damage attribute (i.e. vanilla bow/crossbow and most modded ones), level = round(archeryBaseLevel + maxDurability * multiplier) - durability is used as a generic power-tier proxy since ranged weapons don't expose real per-shot damage/draw-time as static item data.
+#Range: 0.0 ~ 1.7976931348623157E308
+archeryDurabilityMultiplier = 0.0098
+#Mob deaths a chunk takes at full LevelZ xp
+#Range: > 0
+farmFreeKills = 12
+#Mob deaths at which a chunk gives no LevelZ xp (and player kills there no drops)
+#Range: > 1
+farmMaxKills = 40
+#Seconds for a chunk to forget one mob death
+#Range: > 1
+farmCooldownSeconds = 30
+

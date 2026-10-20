@@ -1,0 +1,13 @@
+{
+	"allowDefaultAsync": null,
+	"defaultDisableDuplicatePlugins": false,
+	"typeOverrides": {
+		"irons_spellbooks:jei_plugin": "DISABLED"
+	},
+	"defaultPhaseOverrides": {
+	
+	},
+	"pluginPhaseOverrides": {
+	
+	}
+}
