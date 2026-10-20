@@ -2015,6 +2015,10 @@ hash = "d62480bc696affd0a714d4cd74b5dc64a072b9d67d505b52df87ebcdf9650a79"
 metafile = true
 
 [[files]]
+file = "mods/covenant_of_the_seven-2.2.6-hotfix.jar"
+hash = "07de8088ad8235226d4256d9137b3c0985597227b785c3434c650f7b866cd411"
+
+[[files]]
 file = "mods/create-dragons-plus.pw.toml"
 hash = "00f734d137e718d42297cc556042b80be84d08740273fb28bbe93b91959cc300"
 metafile = true
