@@ -1,0 +1,12 @@
+
+[mob_balance]
+	#Health and damage multipliers per mod or per mob: "modid=health,damage" or "modid:mob=health,damage".
+	#A mob entry wins over its mod entry. Damage covers every attack of the mob: melee, projectiles and abilities.
+	#Only applies to mobs spawned after the change (health is set when the mob first joins the world).
+	multipliers = ["panascraftrpgmod=0.6,0.3"]
+
+[rare_spawns]
+	#Natural spawns kept for these mobs: "modid:mob=chance" (0.2 = only 1 in 5 natural spawns happens).
+	#Doesn't affect spawners, structures, spawn eggs or commands.
+	mobs = ["panascraftrpgmod:golem_king=0.2", "panascraftrpgmod:pumpking_lord=0.2", "panascraftrpgmod:demon_general=0.2", "panascraftrpgmod:demonic_king=0.2", "panascraftrpgmod:end_beast=0.2", "panascraftrpgmod:void_dragon=0.2"]
+

@@ -1,0 +1,470 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forja"
+	group: ""
+	icon: { Count: 1b, id: "minecraft:anvil" }
+	id: "21A7BEC31ACC0378"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Epic Knights: estaño, bronce y acero para armas y armaduras medievales."]
+			icon: { Count: 1b, id: "magistuarmory:steel_ingot" }
+			id: "6F7D03E4627A8F1D"
+			rewards: [
+				{
+					id: "5F8F4046A9184C00"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "6BE1D22226884364"
+					item: { Count: 1b, id: "magistuarmory:tin_ingot" }
+					type: "item"
+				},
+				{
+					count: 4L
+					id: "E262F3636C5C1074"
+					item: { Count: 1b, id: "magistuarmory:bronze_ingot" }
+					type: "item"
+				},
+				{
+					count: 4L
+					id: "B3CC9FF81D9FEBF5"
+					item: { Count: 1b, id: "magistuarmory:steel_ingot" }
+					type: "item"
+				}
+			]
+			title: "Herrería medieval"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F7D03E4627A8F1D"]
+			description: ["Viste como un caballero: yelmo armet y peto de caballero."]
+			icon: { Count: 1b, id: "magistuarmory:knight_chestplate" }
+			id: "2BD7C47CCA042C3E"
+			rewards: [
+				{
+					id: "273EB256C9AFC31B"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "4B16395FFA580432"
+					item: { Count: 1b, id: "magistuarmory:armet" }
+					type: "item"
+				},
+				{
+					count: 1L
+					id: "B3C268ECD7E3E031"
+					item: { Count: 1b, id: "magistuarmory:knight_chestplate" }
+					type: "item"
+				}
+			]
+			title: "Caballero"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F7D03E4627A8F1D"]
+			description: ["Forja un mandoble de acero."]
+			icon: { Count: 1b, id: "magistuarmory:steel_claymore" }
+			id: "8EAFD72DA994113C"
+			rewards: [
+				{
+					id: "9B3232A97638AE7C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "8332FF89D66057B4"
+					item: { Count: 1b, id: "magistuarmory:steel_claymore" }
+					type: "item"
+				}
+			]
+			title: "Armas de acero"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BD7C47CCA042C3E"]
+			description: ["Los petos gótico y maximiliano: lo mejor de la herrería medieval."]
+			icon: { Count: 1b, id: "magistuarmory:gothic_chestplate" }
+			id: "3BE936D82ACC4779"
+			rewards: [
+				{
+					id: "6496ED3CBD3F7EF9"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "AA749C914595BA57"
+					item: { Count: 1b, id: "magistuarmory:gothic_chestplate" }
+					type: "item"
+				},
+				{
+					count: 1L
+					id: "980BA2BA22CA3B6F"
+					item: { Count: 1b, id: "magistuarmory:maximilian_chestplate" }
+					type: "item"
+				}
+			]
+			title: "Armadura gótica"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			description: ["Un peto de netherita."]
+			icon: { Count: 1b, id: "minecraft:netherite_chestplate" }
+			id: "ED1C523F0F7DB6E7"
+			rewards: [
+				{
+					id: "7330240587164E8B"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "EA4966125A835A58"
+					item: { Count: 1b, id: "minecraft:netherite_chestplate" }
+					type: "item"
+				}
+			]
+			title: "Netherita"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["ED1C523F0F7DB6E7"]
+			description: ["Consigue huesos de dragón y fabrica una herramienta con ellos."]
+			icon: { Count: 1b, id: "iceandfire:dragonbone" }
+			id: "84438C109DC5D79C"
+			rewards: [
+				{
+					id: "0540351EFEBC12C1"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "A7AF34963D2C374B"
+					item: { Count: 1b, id: "iceandfire:dragonbone" }
+					type: "item"
+				},
+				{
+					advancement: "iceandfire:iceandfire/dragonbone_tool"
+					criterion: ""
+					id: "9A3F23093F6D955A"
+					type: "advancement"
+				}
+			]
+			title: "Hueso de dragón"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["84438C109DC5D79C"]
+			description: ["Construye una forja de dragón: ladrillos y núcleo."]
+			icon: { Count: 1b, id: "iceandfire:dragonforge_fire_core" }
+			id: "1D0DF010B72C4862"
+			rewards: [
+				{
+					id: "66FE9F6D6675A051"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/dragon_forge_brick"
+					criterion: ""
+					id: "3BC4987A15079548"
+					type: "advancement"
+				},
+				{
+					advancement: "iceandfire:iceandfire/dragon_forge_core"
+					criterion: ""
+					id: "E0D9BEBDAC1B9D51"
+					type: "advancement"
+				}
+			]
+			title: "Forja de dragón"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D0DF010B72C4862"]
+			description: ["Funde acero de dragón y forja un arma con él."]
+			icon: { Count: 1b, id: "iceandfire:dragonsteel_fire_ingot" }
+			id: "CB4746E8607D63C4"
+			rewards: [
+				{
+					id: "19A1DAE0BF24D6F9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/dragonsteel"
+					criterion: ""
+					id: "237EC16C7085B77F"
+					type: "advancement"
+				},
+				{
+					advancement: "iceandfire:iceandfire/dragonsteel_weapon"
+					criterion: ""
+					id: "51311800C47D5B40"
+					type: "advancement"
+				}
+			]
+			title: "Acero de dragón"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Metales de Cataclysm: metal ancestral y acero negro."]
+			icon: { Count: 1b, id: "cataclysm:ancient_metal_ingot" }
+			id: "27A6E02B7336FA67"
+			rewards: [
+				{
+					id: "797B2351FEBA7238"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "8CF53F991C5D844C"
+					item: { Count: 1b, id: "cataclysm:ancient_metal_ingot" }
+					type: "item"
+				},
+				{
+					count: 4L
+					id: "0C73761D433F1896"
+					item: { Count: 1b, id: "cataclysm:black_steel_ingot" }
+					type: "item"
+				}
+			]
+			title: "Metal ancestral"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["27A6E02B7336FA67"]
+			description: ["Mejora tu armadura con cursium (Cataclysm of Chaos)."]
+			icon: { Count: 1b, id: "cataclysm:cursium_chestplate" }
+			id: "8423F8E682EC1C31"
+			rewards: [
+				{
+					id: "ACB5E1D41A1ABD39"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm_of_chaos:cursed_steel"
+					criterion: ""
+					id: "3B4392E825AD6E4E"
+					type: "advancement"
+				},
+				{
+					count: 1L
+					id: "3FF0D05D12842850"
+					item: { Count: 1b, id: "cataclysm:cursium_chestplate" }
+					type: "item"
+				}
+			]
+			title: "Cursium"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["8423F8E682EC1C31"]
+			description: ["El siguiente paso: armadura de ignitium."]
+			icon: { Count: 1b, id: "cataclysm:ignitium_chestplate" }
+			id: "6DC8556755F3B562"
+			rewards: [
+				{
+					id: "D7247302753A3BC8"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm_of_chaos:reforged_in_fire"
+					criterion: ""
+					id: "8DF792B475187AFD"
+					type: "advancement"
+				},
+				{
+					count: 1L
+					id: "41C0745F88B006B2"
+					item: { Count: 1b, id: "cataclysm:ignitium_chestplate" }
+					type: "item"
+				}
+			]
+			title: "Ignitium"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6DC8556755F3B562"]
+			description: ["Forja The Incinerator."]
+			icon: { Count: 1b, id: "cataclysm:the_incinerator" }
+			id: "5CCD8B300BC4F0BC"
+			rewards: [
+				{
+					id: "1F8FE02DF91C3134"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "cataclysm_of_chaos:the_final_forge"
+					criterion: ""
+					id: "D2043E414F28369A"
+					type: "advancement"
+				},
+				{
+					count: 1L
+					id: "378F99B5F3052E72"
+					item: { Count: 1b, id: "cataclysm:the_incinerator" }
+					type: "item"
+				}
+			]
+			title: "La forja final"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: ["Aleación de andesita, engranajes y una rueda hidráulica."]
+			icon: { Count: 1b, id: "create:cogwheel" }
+			id: "14204886C41A1AD8"
+			rewards: [
+				{
+					id: "61DC3AB19F94816F"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "EE0B846D89830004"
+					item: { Count: 1b, id: "create:andesite_alloy" }
+					type: "item"
+				},
+				{
+					count: 8L
+					id: "B8C79FE832B9EC60"
+					item: { Count: 1b, id: "create:cogwheel" }
+					type: "item"
+				},
+				{
+					count: 1L
+					id: "22F04A313C986226"
+					item: { Count: 1b, id: "create:water_wheel" }
+					type: "item"
+				}
+			]
+			title: "Create: primeros engranajes"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["14204886C41A1AD8"]
+			description: ["Latón y mecanismos de precisión."]
+			icon: { Count: 1b, id: "create:brass_ingot" }
+			id: "8206434CD38B1A1F"
+			rewards: [
+				{
+					id: "A2814FD1EA31CBB9"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "86DF0CCBE7E9D9DE"
+					item: { Count: 1b, id: "create:brass_ingot" }
+					type: "item"
+				},
+				{
+					count: 1L
+					id: "D7361211D6D67435"
+					item: { Count: 1b, id: "create:precision_mechanism" }
+					type: "item"
+				}
+			]
+			title: "Create: latón"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["8206434CD38B1A1F"]
+			description: ["Prensa mecánica, quemador de blaze y ensamblador mecánico."]
+			icon: { Count: 1b, id: "create:mechanical_crafter" }
+			id: "20EA262F9998247E"
+			rewards: [
+				{
+					id: "E60548A7E58675D5"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "584E7CE679507D73"
+					item: { Count: 1b, id: "create:mechanical_press" }
+					type: "item"
+				},
+				{
+					count: 1L
+					id: "BEBE9993D348AD62"
+					item: { Count: 1b, id: "create:blaze_burner" }
+					type: "item"
+				},
+				{
+					count: 1L
+					id: "A0BE5D86B77357AD"
+					item: { Count: 1b, id: "create:mechanical_crafter" }
+					type: "item"
+				}
+			]
+			title: "Create: automatización"
+			x: 4.0d
+			y: 9.0d
+		}
+	]
+	subtitle: ["Armas, armaduras y máquinas"]
+	title: "Forja y equipo"
+}

@@ -26,10 +26,11 @@ weatherIntensity = 1.0
 	daysPerEra = 10
 	#Range: 1 ~ 100
 	maxEra = 10
-	#Extra max health for hostile mobs per threat level above 1 (0.1 = +10%).
+	#Extra max health for hostile mobs and bosses per threat level above 1 (0.1 = +10%).
 	#Range: 0.0 ~ 10.0
 	healthPerEra = 0.1
-	#Extra melee damage for hostile mobs per threat level above 1.
+	#Extra damage for hostile mobs and bosses per threat level above 1: melee, arrows,
+	#fireballs, spells, abilities and breath attacks.
 	#Range: 0.0 ~ 10.0
 	damagePerEra = 0.05
 	#Extra Elite Mobs spawn chance per threat level above 1 (only with Elite Mobs).
@@ -38,6 +39,9 @@ weatherIntensity = 1.0
 	#Extra chance of dangerous events per threat level above 1.
 	#Range: 0.0 ~ 10.0
 	eventChancePerEra = 0.1
+	#Wild Ice and Fire dragons get this fraction of damagePerEra (0.5 = half). Tamed dragons don't scale.
+	#Range: 0.0 ~ 10.0
+	dragonDamageFactor = 0.5
 
 [progression]
 
@@ -82,6 +86,21 @@ weatherIntensity = 1.0
 		#Extra weight of night events and extra event chance at night, per sleepless night.
 		#Range: 0.0 ~ 10.0
 		bonusPerNight = 0.5
+
+	#Distance threat: every blocksPerLevel blocks away from the world spawn adds a threat level to the mobs
+	#that spawn there (health, damage and elite chance), on top of era + boss milestones. Not in the End.
+	[progression.distance_threat]
+		enabled = true
+		#Blocks from the spawn per extra threat level; the first ring is a safe zone.
+		#Range: 16 ~ 1000000
+		blocksPerLevel = 1000
+		#Range: 0 ~ 100
+		maxLevels = 5
+		#Nether distance counts this many times (8 = like overworld coordinates). 0 disables it in the Nether.
+		#Range: 0.0 ~ 64.0
+		netherScale = 8.0
+		#Action bar message when a player enters a zone with a different threat.
+		messages = true
 
 #Each event: enabled, weight (relative chance), duration and minThreat (world threat level needed).
 [acid_rain]

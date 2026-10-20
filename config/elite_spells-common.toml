@@ -1,0 +1,108 @@
+
+[general]
+	#Ticks the mage spends charging (particles + sound) before the spell goes off, so players can react.
+	#Range: 0 ~ 200
+	windupTicks = 20
+	#Cooldown of support spells (heal, shield, summons), separate from the attack cooldown.
+	#Range: 1 ~ 3600
+	supportCooldownSeconds = 30
+	#Max distance to the target to cast attack spells.
+	#Range: 4 ~ 64
+	maxRange = 24
+	#Healing spells are only cast below this fraction of max health.
+	#Range: 0.0 ~ 1.0
+	healBelowHealth = 0.5
+	#Entities that never become mages: exact "modid:name" or "modid:*".
+	entityBlacklist = []
+
+#Per elite rank: chance to be a mage, spell level range and attack spell cooldown.
+[ranks]
+
+	[ranks.elite]
+		#Chance (0-1) for an elite of this rank to be a mage.
+		#Range: 0.0 ~ 1.0
+		mageChance = 0.25
+		#Range: 1 ~ 10
+		minSpellLevel = 1
+		#Clamped to each spell's own max level.
+		#Range: 1 ~ 10
+		maxSpellLevel = 2
+		#Range: 1 ~ 600
+		cooldownSeconds = 8
+
+	[ranks.champion]
+		#Chance (0-1) for an elite of this rank to be a mage.
+		#Range: 0.0 ~ 1.0
+		mageChance = 0.4
+		#Range: 1 ~ 10
+		minSpellLevel = 3
+		#Clamped to each spell's own max level.
+		#Range: 1 ~ 10
+		maxSpellLevel = 4
+		#Range: 1 ~ 600
+		cooldownSeconds = 6
+
+	[ranks.boss]
+		#Chance (0-1) for an elite of this rank to be a mage.
+		#Range: 0.0 ~ 1.0
+		mageChance = 0.6
+		#Range: 1 ~ 10
+		minSpellLevel = 5
+		#Clamped to each spell's own max level.
+		#Range: 1 ~ 10
+		maxSpellLevel = 6
+		#Range: 1 ~ 600
+		cooldownSeconds = 4
+
+#Per mage type: weight (relative chance) and Iron's Spells spell ids. Ids without a namespace
+#are irons_spellbooks spells. Continuous spells (fire breath, cone of cold...) are skipped.
+[schools]
+
+	[schools.pyromancer]
+		#0 disables this mage type.
+		#Range: 0 ~ 1000
+		weight = 10
+		spells = ["firebolt", "magma_bomb", "flaming_strike"]
+
+	[schools.cryomancer]
+		#0 disables this mage type.
+		#Range: 0 ~ 1000
+		weight = 10
+		spells = ["icicle", "ray_of_frost", "ice_block", "summon_polar_bear"]
+
+	[schools.electromancer]
+		#0 disables this mage type.
+		#Range: 0 ~ 1000
+		weight = 10
+		spells = ["lightning_lance", "chain_lightning", "ball_lightning"]
+
+	[schools.necromancer]
+		#0 disables this mage type.
+		#Range: 0 ~ 1000
+		weight = 10
+		spells = ["blood_slash", "blood_needles", "wither_skull", "raise_dead"]
+
+	[schools.arcanist]
+		#0 disables this mage type.
+		#Range: 0 ~ 1000
+		weight = 10
+		spells = ["magic_missile", "magic_arrow", "shadow_slash"]
+
+	[schools.priest]
+		#0 disables this mage type.
+		#Range: 0 ~ 1000
+		weight = 10
+		spells = ["guiding_bolt", "sunbeam", "heal"]
+
+	[schools.evoker]
+		#0 disables this mage type.
+		#Range: 0 ~ 1000
+		weight = 10
+		spells = ["fang_strike", "firecracker", "summon_vex", "shield"]
+
+	[schools.druid]
+		#0 disables this mage type.
+		#Range: 0 ~ 1000
+		weight = 10
+		spells = ["poison_arrow", "acid_orb", "poison_splash", "root"]
+

@@ -506,7 +506,7 @@ hash = "736bec8c910558091bb749ac7adb013822a253a02f1f70637eb193952768d2b1"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "4930eaa4cf9f7caa170ee2ce45a9211da6287aee17a848afef26f13cfcbf434c"
+hash = "fc5d31caf8599ccc7279e806549178bb65412f2a13ddcc16c6350289d0d1dde7"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -845,6 +845,10 @@ file = "config/elite_mobs-common.toml"
 hash = "a5d12ed27078001034e8816044f29b8d586bd56beeb8493f553ae6e745e46551"
 
 [[files]]
+file = "config/elite_spells-common.toml"
+hash = "417fe4a8e2894be89709b9cb09e9c0dfd06e975a56edba6d6037805966231c84"
+
+[[files]]
 file = "config/embeddium-fingerprint.json"
 hash = "1f317e98128004ec2e76b498cd3449d64ab9c692ad88c864de08009bb6da2335"
 
@@ -877,8 +881,28 @@ file = "config/entityculling.json"
 hash = "4a6d510b7e0157027b1cf2022184567fd5387aa09d08db108cb0369ba371ddbe"
 
 [[files]]
+file = "config/epicknights/armor.json5"
+hash = "0ff17ebd10c2d1b1b21fa8f6e5667eed9c08b226f60805bc586e2bb06f058961"
+
+[[files]]
+file = "config/epicknights/general.json5"
+hash = "d3dec561a9b4985cb6407bc18bc1d8507e5bd7e6e916de32a0bdae0e8b2998ba"
+
+[[files]]
+file = "config/epicknights/mobs_equipment.json5"
+hash = "35bf1bc34160e9a890814f08e0e9a69c3d7e21bf6991ace6548ef759e4cd8524"
+
+[[files]]
+file = "config/epicknights/shields.json5"
+hash = "ece9f2ec662c26d829d7439c0138717d9fe83dc606d055b64dab37799f209f3e"
+
+[[files]]
+file = "config/epicknights/weapons.json5"
+hash = "134eca5eafff0ffe0d52cf8774dd02fb247a6e2f6ca617f0acac396c9565ebd6"
+
+[[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "33a87df7d5cc7421d9058f4f4dc36d4c41daf71869b94c1e1101d10df318e546"
+hash = "02a8db71683ef985003f549b4a3da4fc78a479ebc63c944d125513fb9074c31f"
 
 [[files]]
 file = "config/farmers_spell-common.toml"
@@ -921,8 +945,40 @@ file = "config/forge-client.toml"
 hash = "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/exploracion.snbt"
+hash = "e3a63d122ef7f7b99d89a37908e6547564d63d6e0416f526ad9e9e8346e97623"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/forja.snbt"
+hash = "67966bcb0c87f4bc3b7faea05bffe1f599bfeeb09ef2d6286bdb1faaccff6295"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/jefes.snbt"
+hash = "e918421c8c930061f57fb408062c42758af49785cf7b1754e4ccf06f8b695f3b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/magia.snbt"
+hash = "18899d2f269839af99774e1d34cff8c08f3a646cd3525363b74b170b8bc81c39"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/progresion.snbt"
+hash = "7122a42a55e33f9468dd8fe01ec2c6979bcc26bf2a6f0ec7cc7e910f27b44474"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "9cda4613365e0529dd90268762026b5891b719cf84801dd877350525e2f6b293"
+
+[[files]]
 file = "config/fzzy_config/keybinds.toml"
 hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
+
+[[files]]
+file = "config/gg_tweaks-common.toml"
+hash = "4074fcb4d3a4f31a0da8bcf71c49363799323a3a50e719a37dfdc5bca3a2778d"
 
 [[files]]
 file = "config/gtbcs_spell_lib-common.toml"
@@ -1306,7 +1362,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ca65cd93c108a15e64218fea56844fd81aa060f905bba31c65b2eee71fdbdcbf"
+hash = "1dfa3d2c1d5324205b522bde506a7500dc01c4510566a27827d1e25e45dbcbfa"
 
 [[files]]
 file = "config/paladins/effects.json"
@@ -1414,7 +1470,7 @@ hash = "ad5410ace1abceca1b2be5ac3daf277779e50916bfbdb3ce6569400d8f994e59"
 
 [[files]]
 file = "config/sidebar_buttons.json"
-hash = "9767ff192b97c01ef718b7c3c3fb0928f81f5214299b935115e53dbc950328cd"
+hash = "d12bcdd59a36b21e0aafaab84c9ef6749d8aeab3e28e814571625a58a5db3a87"
 
 [[files]]
 file = "config/simplymore/loot.json5"
@@ -1726,7 +1782,7 @@ hash = "4f7d44cb2b2588446db0886af941fb2c4194d15bfba7d303de1ca0d2879cff31"
 
 [[files]]
 file = "config/world_events-common.toml"
-hash = "1c785ee528710d45a5333cce48b47f6a9b02e11104d8f68cb447a47c4bea5796"
+hash = "2f47fbd8c8090cad12d683521bd6f14b9f304ac8e1ed9cf3e79b976507e8a58f"
 
 [[files]]
 file = "config/xaero/lib/client.cfg"
@@ -1801,6 +1857,10 @@ file = "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
 hash = "ab6bcad040f138406197f70cfe9a041832feaddf7e87954d9a5f4b13b6a962f9"
 
 [[files]]
+file = "defaultconfigs/ftbquests/client-config.snbt"
+hash = "4ce84f0da35036f810959086ea1043062993bf34ae704fc9cd4f1a67810090a6"
+
+[[files]]
 file = "mods/additional-rpg-jewelry.pw.toml"
 hash = "0928a1f9673247a3f829346742da016f9f486e7dfe26f0e8135c54020f8a1e75"
 metafile = true
@@ -1833,6 +1893,11 @@ metafile = true
 [[files]]
 file = "mods/amendments.pw.toml"
 hash = "5922845f6c9bb57548eca500857ebd2268bffe3799373b7306c2bdfb706d5f95"
+metafile = true
+
+[[files]]
+file = "mods/apocalypticbosses.pw.toml"
+hash = "538a2bd475ccffdd7575c2f3d90333cafd0dff285f1429b57366aba21b9dea18"
 metafile = true
 
 [[files]]
@@ -1911,11 +1976,6 @@ hash = "fe46309d954710019e07813bcdc6db2c775b07795f3628cb559610adcb129a9a"
 metafile = true
 
 [[files]]
-file = "mods/bclib-forge.pw.toml"
-hash = "e3bf1257a47e6ef8ec79e9992d1964099e4e864412da5292a22179080e0af108"
-metafile = true
-
-[[files]]
 file = "mods/berserker-rpg-class.pw.toml"
 hash = "e37beada941987061bbc4091055c2a4c41ababa0a8047a7fe55affe92e659341"
 metafile = true
@@ -1928,11 +1988,6 @@ metafile = true
 [[files]]
 file = "mods/betterdays.pw.toml"
 hash = "598205e268c0f43a288b21fcccacf3eded9662270a0411bb0d025bfcb2ed043d"
-metafile = true
-
-[[files]]
-file = "mods/betternether-forge.pw.toml"
-hash = "d1bb8495c6afc80b02932a558c0e3284a16ec6842b8b68a8670f02fa6ae619c4"
 metafile = true
 
 [[files]]
@@ -1953,6 +2008,11 @@ metafile = true
 [[files]]
 file = "mods/caelus.pw.toml"
 hash = "da069e723737ae49203f7572eb774be0fd21f5f083ce7a7ee1bed25916befca8"
+metafile = true
+
+[[files]]
+file = "mods/cataclysm-of-chaos.pw.toml"
+hash = "d8e5a61add7fe4257e92db05cedea6ff11ec5e6660bb917b0c28da60143220d8"
 metafile = true
 
 [[files]]
@@ -2064,6 +2124,11 @@ hash = "d28bffc94b6897e1b0ae9692751630ce558243abaac6f95c00c12e72ec7c550e"
 metafile = true
 
 [[files]]
+file = "mods/dungeons-and-combat.pw.toml"
+hash = "c33c3b1fdaa58206d2fe60c514002c5ad609ec971aed65b0a2ace2ef04d4d00d"
+metafile = true
+
+[[files]]
 file = "mods/elemental-wizards-rpg.pw.toml"
 hash = "cedcfa1ee68bdef80c8644ff9d5d55d90ece16c572d9ea94a978490ab6cce49d"
 metafile = true
@@ -2071,6 +2136,10 @@ metafile = true
 [[files]]
 file = "mods/elite_mobs-1.4.0.jar"
 hash = "082b4a7997ff3e87c04e2dc8bcce1f2c0e94a3f8efebd10a9755f2598d57634c"
+
+[[files]]
+file = "mods/elite_spells-1.0.2.jar"
+hash = "61c3e8f955a28be82ef4e725d88538769959e1c8cc5395d99857e8b5adbd18d1"
 
 [[files]]
 file = "mods/elysium-api.pw.toml"
@@ -2103,6 +2172,11 @@ hash = "03783bea6895d8acf198ac7d8bce4f91746659d0954f7367d0029b11963edee0"
 metafile = true
 
 [[files]]
+file = "mods/epic-knights-shields-armor-and-weapons.pw.toml"
+hash = "5cd47b3d987cc06e57a99ceda4f173f4e442fc5bdc1989cd0202f55dc55f71a5"
+metafile = true
+
+[[files]]
 file = "mods/explorify.pw.toml"
 hash = "6adce6422e74091638dbd7872270ee58d9a22dc18340580f809cc50c739e0d4f"
 metafile = true
@@ -2110,11 +2184,6 @@ metafile = true
 [[files]]
 file = "mods/familiarslib.pw.toml"
 hash = "78f4bc8cc2fc2ac74160d841d7f7e00b0cb1f59eb85775c8fd11908796de2044"
-metafile = true
-
-[[files]]
-file = "mods/farmers-cutting-betternether.pw.toml"
-hash = "69cd92f4e6c7d80046fab0900f148099566f14e416e0d59833ec741a4d14fa1f"
 metafile = true
 
 [[files]]
@@ -2143,6 +2212,11 @@ hash = "9db3089b9504be94818135f452daa1f2abbcb478d31abba2b19833902ea5daa5"
 metafile = true
 
 [[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "7b2cc450f553b82439ae9422b8c2b4406dae1af3c48f7ce791a3576acff1d122"
+metafile = true
+
+[[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "efda76423b21f9bfab4ad8d0411f0b06a199ab7e3e12ca16dc0586c1828b8f07"
 metafile = true
@@ -2156,6 +2230,10 @@ metafile = true
 file = "mods/geckolib.pw.toml"
 hash = "7ffae05c3b8101588b231db8116c34b36a77a0c6e6d7e6af867ae1c5b47e4d10"
 metafile = true
+
+[[files]]
+file = "mods/gg_tweaks-1.1.0.jar"
+hash = "c1d44922fbf3decc4c29fd7925c138514fe3b817596d4d9b311f3dc12d7637d9"
 
 [[files]]
 file = "mods/glitchcore.pw.toml"
@@ -2263,12 +2341,12 @@ hash = "bc4c7d42fd94d57b020a43dbb3aa3caaa8395c77bd872f252a8302a39b2256a9"
 metafile = true
 
 [[files]]
-file = "mods/levelz-2.0.26-forge-1.20.1.jar"
-hash = "227bac0384e120ebcaf72f0b55fa773c27ce99d70f613b388fcd33a306d585dc"
+file = "mods/levelz-2.0.29-forge-1.20.1.jar"
+hash = "81cc59ad42b99c38284ee0a28a31a7927537265e9edeb037cc5fafff0ec61860"
 
 [[files]]
-file = "mods/levelz_bloodmagic_addon-1.0.0.jar"
-hash = "ed2195812fc4e5157e809a394b338ed275621252c50de66ac5ea9424e2b966ad"
+file = "mods/levelz_bloodmagic_addon-1.0.1.jar"
+hash = "54ebf73a4140cf50116c9c668d1f1765aaee757a7c20a6278d27f01fd10efc27"
 
 [[files]]
 file = "mods/levelz_covenant_addon-1.0.0.jar"
@@ -2279,8 +2357,8 @@ file = "mods/levelz_curios_addon-1.0.1.jar"
 hash = "80b3393b8ba6083259d77aff7876292ba3133a66940e3cf2d0896d2261b8baea"
 
 [[files]]
-file = "mods/levelz_irons_spells_addon-1.3.1.jar"
-hash = "68e1435ab266c7781981220e1fed82c15e1721d2239fd6eb28ce3d696c10884a"
+file = "mods/levelz_irons_spells_addon-1.3.2.jar"
+hash = "00f3fa8c8e5db938ab53ed676368cdf6a903b37c4091abf0196246c182d17bb3"
 
 [[files]]
 file = "mods/levelz_naturesaura_addon-1.0.0.jar"
@@ -2660,13 +2738,8 @@ hash = "d49837d164fca6699a6c583c1fb28a47c2ef0105cd35d618a70da5c2ed5700ba"
 metafile = true
 
 [[files]]
-file = "mods/world_events-1.3.1.jar"
-hash = "6fca5f4993a669f7ea5c0f4a5eb275026a28669efbe5811c0d6f36892ea3a56d"
-
-[[files]]
-file = "mods/wunderlib-forge.pw.toml"
-hash = "b89359917a7db2d5f9c77a4205b444f3eff4baf6278091696ed7e57abeb8832a"
-metafile = true
+file = "mods/world_events-1.5.0.jar"
+hash = "237ba3846bd11e2d89717985d4610ad73c35a10aa4443f894ebf44eb98b70c2b"
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"

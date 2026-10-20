@@ -1,0 +1,13 @@
+name = "Cataclysm of Chaos (Cataclysm & Born in Chaos Compatability mod)"
+filename = "cataclysm_of_chaos-1.11-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1e3cc7d168e32d32209183a0cf5cb808f8174985"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9129389
+project-id = 1726641

@@ -1122,7 +1122,7 @@
         "value": 1024
       }
     },
-    "spell_power:resistance.generic": {
+    "dungeons_and_combat:action_state": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1133,7 +1133,7 @@
         "value": 1024
       }
     },
-    "dungeons_and_combat:action_state": {
+    "spell_power:resistance.generic": {
       "enabled": false,
       "min": {
         "default": 0,

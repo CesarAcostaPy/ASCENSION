@@ -1,0 +1,366 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magia"
+	group: ""
+	icon: { Count: 1b, id: "irons_spellbooks:gold_spell_book" }
+	id: "4FFF4C42938EB3AC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Equipa un libro de hechizos de Iron's Spells. Tu nivel de Magia (LevelZ) limita qué hechizos puedes usar."]
+			icon: { Count: 1b, id: "irons_spellbooks:iron_spell_book" }
+			id: "7A636593E37B472D"
+			rewards: [
+				{
+					id: "8B2A25CA5A66DED5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_equip"
+					criterion: ""
+					id: "2C98EF5D162198DD"
+					type: "advancement"
+				}
+			]
+			title: "El camino arcano"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A636593E37B472D"]
+			description: ["Fabrica una mesa de inscripción para añadir hechizos a tu libro."]
+			icon: { Count: 1b, id: "irons_spellbooks:inscription_table" }
+			id: "C6A7840487F855A0"
+			rewards: [
+				{
+					id: "254A0B6535C649E1"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/make_inscription_table"
+					criterion: ""
+					id: "F0D87A43A13CA57C"
+					type: "advancement"
+				}
+			]
+			title: "Mesa de inscripción"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C6A7840487F855A0"]
+			description: ["Fabrica la forja de pergaminos y tu primera tinta."]
+			icon: { Count: 1b, id: "irons_spellbooks:scroll_forge" }
+			id: "01EF3C46C646C703"
+			rewards: [
+				{
+					id: "5DE1BAEF8BF14A6E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/make_scroll_forge"
+					criterion: ""
+					id: "9091D7D9129B8634"
+					type: "advancement"
+				},
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/ink_root"
+					criterion: ""
+					id: "567DA1C2CDEB30A1"
+					type: "advancement"
+				}
+			]
+			title: "Forja de pergaminos"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["C6A7840487F855A0"]
+			description: ["El yunque arcano mejora hechizos y equipo mágico."]
+			icon: { Count: 1b, id: "irons_spellbooks:arcane_anvil" }
+			id: "4F05402153C202C6"
+			rewards: [
+				{
+					id: "898890D517DBA4E8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/make_arcane_anvil"
+					criterion: ""
+					id: "714CC74704FB95E0"
+					type: "advancement"
+				}
+			]
+			title: "Yunque arcano"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01EF3C46C646C703"]
+			description: ["Consigue tinta legendaria."]
+			icon: { Count: 1b, id: "irons_spellbooks:legendary_ink" }
+			id: "01DEDFDE540BB82B"
+			rewards: [
+				{
+					id: "DD6694A79B8B3C08"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/ink_legendary"
+					criterion: ""
+					id: "1B34FD1A3D138EE5"
+					type: "advancement"
+				}
+			]
+			title: "Tinta legendaria"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F05402153C202C6"]
+			description: ["Un libro de hechizos de netherita: más espacios para hechizos."]
+			icon: { Count: 1b, id: "irons_spellbooks:netherite_spell_book" }
+			id: "9AEC7B56CB7F7638"
+			rewards: [
+				{
+					id: "11EEB65DBBE1B033"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_netherite"
+					criterion: ""
+					id: "6D9C62C4E14E6660"
+					type: "advancement"
+				}
+			]
+			title: "Libro de netherita"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["9AEC7B56CB7F7638"]
+			description: ["Derrota al Rey Muerto y reclama su libro."]
+			icon: { Count: 1b, id: "irons_spellbooks:necronomicon_spell_book" }
+			id: "64C09E2B21782FF6"
+			rewards: [
+				{
+					id: "F330E0BC4FE11645"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/spell_book_dead_king"
+					criterion: ""
+					id: "A765FC3B37F7376C"
+					type: "advancement"
+				}
+			]
+			title: "Libro del Rey Muerto"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			description: ["Nature's Aura: consigue el libro, hojas doradas y construye el altar natural."]
+			icon: { Count: 1b, id: "naturesaura:gold_leaf" }
+			id: "7DAB21FF21B685E7"
+			rewards: [
+				{
+					id: "AF1C1DB4BDA7992F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					advancement: "naturesaura:get_book"
+					criterion: ""
+					id: "E1FDE7C91202D9F9"
+					type: "advancement"
+				},
+				{
+					advancement: "naturesaura:gold_leaf"
+					criterion: ""
+					id: "C8E7158CC44D2A6A"
+					type: "advancement"
+				},
+				{
+					advancement: "naturesaura:altar"
+					criterion: ""
+					id: "153906E25FF998C7"
+					type: "advancement"
+				}
+			]
+			title: "Aura natural"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DAB21FF21B685E7"]
+			description: ["Infunde hierro con aura y fabrica herramientas infundidas."]
+			icon: { Count: 1b, id: "naturesaura:infused_iron" }
+			id: "A4BAEA5F29713F6B"
+			rewards: [
+				{
+					id: "C44196677A165AC0"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			tasks: [
+				{
+					advancement: "naturesaura:infused_materials"
+					criterion: ""
+					id: "CE519B6DF2425DE1"
+					type: "advancement"
+				},
+				{
+					advancement: "naturesaura:infused_tools"
+					criterion: ""
+					id: "F56ED104E996C02B"
+					type: "advancement"
+				}
+			]
+			title: "Materiales infundidos"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["A4BAEA5F29713F6B"]
+			description: ["Consigue un lingote celestial."]
+			icon: { Count: 1b, id: "naturesaura:sky_ingot" }
+			id: "6B1A18F0A19F8510"
+			rewards: [
+				{
+					id: "8B38274316576390"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					advancement: "naturesaura:sky_ingot"
+					criterion: ""
+					id: "C6EC39920BD70240"
+					type: "advancement"
+				}
+			]
+			title: "Lingote celestial"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: ["Blood Magic: una daga de sacrificio y el altar de sangre."]
+			icon: { Count: 1b, id: "bloodmagic:altar" }
+			id: "989F0AD81F49F926"
+			rewards: [
+				{
+					id: "46A7BBAAD7217551"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6F4A97103833A41D"
+					item: { Count: 1b, id: "bloodmagic:sacrificialdagger" }
+					type: "item"
+				},
+				{
+					count: 1L
+					id: "1DB59D00298C55D0"
+					item: { Count: 1b, id: "bloodmagic:altar" }
+					type: "item"
+				}
+			]
+			title: "Magia de sangre"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["989F0AD81F49F926"]
+			description: ["Llena tu red de almas con los orbes débil y de aprendiz."]
+			icon: { Count: 1b, id: "bloodmagic:weakbloodorb" }
+			id: "C9125BAE6A421E15"
+			rewards: [
+				{
+					id: "2EBAE27842C69AA0"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5AD22DFEACEF5E99"
+					item: { Count: 1b, id: "bloodmagic:weakbloodorb" }
+					type: "item"
+				},
+				{
+					count: 1L
+					id: "279F581948D49767"
+					item: { Count: 1b, id: "bloodmagic:apprenticebloodorb" }
+					type: "item"
+				}
+			]
+			title: "Orbe de sangre"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			description: ["Doma un familiar mágico y mejóralo."]
+			icon: { Count: 1b, id: "alshanex_familiars:pet_bed" }
+			id: "93380C3964722769"
+			rewards: [
+				{
+					id: "032E3338D261CA00"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			tasks: [
+				{
+					advancement: "alshanex_familiars:alshanex_familiars/tame_list"
+					criterion: ""
+					id: "BE99DA4C66C3F94E"
+					type: "advancement"
+				},
+				{
+					advancement: "alshanex_familiars:alshanex_familiars/upgrade_familiar"
+					criterion: ""
+					id: "D55FB1ADD2DF5B70"
+					type: "advancement"
+				}
+			]
+			title: "Familiares"
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+	subtitle: ["Hechizos, aura, sangre y familiares"]
+	title: "Magia"
+}

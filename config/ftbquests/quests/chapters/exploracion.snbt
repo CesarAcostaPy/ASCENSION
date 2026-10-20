@@ -1,0 +1,475 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploracion"
+	group: ""
+	icon: { Count: 1b, id: "minecraft:filled_map" }
+	id: "DC02DACD3A104AEF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Encuentra mazmorras de YUNG's: pequeña, de zombis, de esqueletos y de arañas."]
+			icon: { Count: 1b, id: "minecraft:mossy_cobblestone" }
+			id: "2673A87F74C648E2"
+			rewards: [
+				{
+					id: "E6C201D6330BBB9D"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					advancement: "betterdungeons:small_dungeon"
+					criterion: ""
+					id: "478D1CE5B4A67D01"
+					type: "advancement"
+				},
+				{
+					advancement: "betterdungeons:zombie_dungeon"
+					criterion: ""
+					id: "D943AAB271F5FA91"
+					type: "advancement"
+				},
+				{
+					advancement: "betterdungeons:skeleton_dungeon"
+					criterion: ""
+					id: "AD79B2343FEFEFED"
+					type: "advancement"
+				},
+				{
+					advancement: "betterdungeons:spider_dungeon"
+					criterion: ""
+					id: "6A6C9FA562B04514"
+					type: "advancement"
+				}
+			]
+			title: "Mazmorras mejoradas"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Entra en un templo del desierto mejorado y complétalo."]
+			icon: { Count: 1b, id: "minecraft:sandstone" }
+			id: "1EDE4FA562064111"
+			rewards: [
+				{
+					id: "92DEF33BD9602485"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					advancement: "betterdeserttemples:temple_entry"
+					criterion: ""
+					id: "811813AECFDE5C3B"
+					type: "advancement"
+				},
+				{
+					advancement: "betterdeserttemples:temple_clear"
+					criterion: ""
+					id: "E339DB64515244BA"
+					type: "advancement"
+				}
+			]
+			title: "Templo del desierto"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Entra en las catacumbas de Iron's Spells."]
+			icon: { Count: 1b, id: "irons_spellbooks:arcane_essence" }
+			id: "7B5A5D9645EA38BE"
+			rewards: [
+				{
+					id: "E54447A3924038AC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					advancement: "irons_spellbooks:irons_spellbooks/enter_catacombs"
+					criterion: ""
+					id: "B97B4EE2499C75B6"
+					type: "advancement"
+				}
+			]
+			title: "Catacumbas"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["Encuentra una ciudad antigua en lo profundo. Silencio..."]
+			icon: { Count: 1b, id: "minecraft:echo_shard" }
+			id: "6A8796785850C474"
+			rewards: [
+				{
+					id: "5FDF8645D2BA77A5"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			tasks: [
+				{
+					advancement: "deeperdarker:main/find_ancient_city"
+					criterion: ""
+					id: "32708640D2F4C000"
+					type: "advancement"
+				}
+			]
+			title: "Ciudad antigua"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Cruza al Otro Lado (Deeper Darker) y encuentra su templo antiguo."]
+			icon: { Count: 1b, id: "minecraft:sculk" }
+			id: "8537F8C6AC3895DB"
+			rewards: [
+				{
+					id: "FAD0C284AD8D0B7B"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [
+				{
+					advancement: "deeperdarker:main/enter_otherside"
+					criterion: ""
+					id: "AF1A7C555FDD745E"
+					type: "advancement"
+				},
+				{
+					advancement: "deeperdarker:main/find_ancient_temple"
+					criterion: ""
+					id: "06E62453673306A7"
+					type: "advancement"
+				}
+			]
+			title: "El Otro Lado"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Encuentra un bastión en ruinas en el Nether."]
+			icon: { Count: 1b, id: "minecraft:gilded_blackstone" }
+			id: "C6624EC4C53ADD69"
+			rewards: [
+				{
+					id: "53ED125AA2CE9F20"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/find_bastion"
+					criterion: ""
+					id: "DBBD18CDDD5A389D"
+					type: "advancement"
+				}
+			]
+			title: "Bastión"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: ["Descubre los seis biomas subterráneos de Alex's Caves."]
+			icon: { Count: 1b, id: "minecraft:glow_lichen" }
+			id: "E00C1E5176BD97BA"
+			rewards: [
+				{
+					id: "5B37BAA32AEF467C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/discover_magnetic_caves"
+					criterion: ""
+					id: "3302EF57B4A7FB2C"
+					type: "advancement"
+				},
+				{
+					advancement: "alexscaves:alexscaves/discover_primordial_caves"
+					criterion: ""
+					id: "9E4547330CA63B2D"
+					type: "advancement"
+				},
+				{
+					advancement: "alexscaves:alexscaves/discover_toxic_caves"
+					criterion: ""
+					id: "5A80C33A59FFFEA7"
+					type: "advancement"
+				},
+				{
+					advancement: "alexscaves:alexscaves/discover_abyssal_chasm"
+					criterion: ""
+					id: "999123D878FAE9C7"
+					type: "advancement"
+				},
+				{
+					advancement: "alexscaves:alexscaves/discover_forlorn_hollows"
+					criterion: ""
+					id: "3F149C549033171A"
+					type: "advancement"
+				},
+				{
+					advancement: "alexscaves:alexscaves/discover_candy_cavity"
+					criterion: ""
+					id: "3094E88396B571D9"
+					type: "advancement"
+				}
+			]
+			title: "Cuevas de Alex"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: ["Encuentra la ciudadela en ruinas, la pirámide maldita, la prisión helada y la herrería de almas."]
+			icon: { Count: 1b, id: "cataclysm:ancient_metal_ingot" }
+			id: "7DAB14E3701C3955"
+			rewards: [
+				{
+					id: "F3477A8C6FF9118E"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:find_ruined_citadel"
+					criterion: ""
+					id: "C676962ADE320707"
+					type: "advancement"
+				},
+				{
+					advancement: "cataclysm:find_cursed_pyramid"
+					criterion: ""
+					id: "0D732159C796B5D3"
+					type: "advancement"
+				},
+				{
+					advancement: "cataclysm:find_frosted_prison"
+					criterion: ""
+					id: "63C56D94971C836E"
+					type: "advancement"
+				},
+				{
+					advancement: "cataclysm:find_soul_black_smith"
+					criterion: ""
+					id: "8CBC8E79DC057D20"
+					type: "advancement"
+				}
+			]
+			title: "Ruinas de Cataclysm"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: ["La arena ardiente, la fábrica ancestral, la ciudad hundida y la acrópolis: las guaridas de los grandes jefes."]
+			icon: { Count: 1b, id: "cataclysm:witherite_ingot" }
+			id: "43C326BEA502D3AB"
+			rewards: [
+				{
+					id: "E023B22EB1AD09B3"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:find_burning_arena"
+					criterion: ""
+					id: "2FB45A14E513BB8E"
+					type: "advancement"
+				},
+				{
+					advancement: "cataclysm:find_ancient_factory"
+					criterion: ""
+					id: "71D027A6431494CD"
+					type: "advancement"
+				},
+				{
+					advancement: "cataclysm:find_sunken_city"
+					criterion: ""
+					id: "E969F5CE6220DF43"
+					type: "advancement"
+				},
+				{
+					advancement: "cataclysm:find_acropolis"
+					criterion: ""
+					id: "10BC5E61BCFD9BD5"
+					type: "advancement"
+				}
+			]
+			title: "Grandes fortalezas de Cataclysm"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["Torres de bandidos, fuerte illager, aldea champiñón, monasterio y asilo de la plaga."]
+			icon: { Count: 1b, id: "minecraft:spyglass" }
+			id: "491779ACB4B919BD"
+			rewards: [
+				{
+					id: "BA9025E0AF5EF6BE"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_bandit_towers"
+					criterion: ""
+					id: "216D69D967B01DD4"
+					type: "advancement"
+				},
+				{
+					advancement: "dungeons_arise:find_illager_fort"
+					criterion: ""
+					id: "1893E1359815A278"
+					type: "advancement"
+				},
+				{
+					advancement: "dungeons_arise:find_mushroom_village"
+					criterion: ""
+					id: "30D01F7AE67E7AAB"
+					type: "advancement"
+				},
+				{
+					advancement: "dungeons_arise:find_monasteries"
+					criterion: ""
+					id: "BA8CE76DD6E44F7C"
+					type: "advancement"
+				},
+				{
+					advancement: "dungeons_arise:find_plague_asylum"
+					criterion: ""
+					id: "8B8ABC005F95F6E5"
+					type: "advancement"
+				}
+			]
+			title: "Dungeons Arise: tierra"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: ["Las estructuras más grandes de Dungeons Arise."]
+			icon: { Count: 1b, id: "minecraft:feather" }
+			id: "E1E17CC9C8E1AF4A"
+			rewards: [
+				{
+					id: "9476FA4EF8CCAD61"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_heavenly_conqueror"
+					criterion: ""
+					id: "FC435B39ED8D6EB7"
+					type: "advancement"
+				},
+				{
+					advancement: "dungeons_arise:find_keep_kayra"
+					criterion: ""
+					id: "5EF84AD25FE091C8"
+					type: "advancement"
+				},
+				{
+					advancement: "dungeons_arise:find_shiraz_palace"
+					criterion: ""
+					id: "130F758805E2A9B2"
+					type: "advancement"
+				},
+				{
+					advancement: "dungeons_arise:find_coliseum"
+					criterion: ""
+					id: "CEF657269C971F4F"
+					type: "advancement"
+				},
+				{
+					advancement: "dungeons_arise:find_typhon"
+					criterion: ""
+					id: "D60672DE1275457E"
+					type: "advancement"
+				}
+			]
+			title: "Dungeons Arise: maravillas"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: ["La fortaleza infernal, las catacumbas lúgubres y las arenas olvidadas."]
+			icon: { Count: 1b, id: "minecraft:iron_sword" }
+			id: "C7F4A828C939D3F3"
+			rewards: [
+				{
+					id: "4B9FDCC458F8EBBD"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_and_combat:a_infernal_fortress"
+					criterion: ""
+					id: "EF36DE9388D978AE"
+					type: "advancement"
+				},
+				{
+					advancement: "dungeons_and_combat:catacumbs_lugubrious"
+					criterion: ""
+					id: "5C98D1D3CE25568C"
+					type: "advancement"
+				},
+				{
+					advancement: "dungeons_and_combat:forgotten_sands"
+					criterion: ""
+					id: "095132D39DC97433"
+					type: "advancement"
+				}
+			]
+			title: "Dungeons and Combat"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: ["Cruza un portal de acceso del End y encuentra una ciudad."]
+			icon: { Count: 1b, id: "minecraft:purpur_block" }
+			id: "35D81287A5FC63EA"
+			rewards: [
+				{
+					id: "DA068D2D5BC53B03"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/find_end_city"
+					criterion: ""
+					id: "C52107D3B2B169BC"
+					type: "advancement"
+				},
+				{
+					advancement: "minecraft:end/enter_end_gateway"
+					criterion: ""
+					id: "5F6377ED6B2A6F7C"
+					type: "advancement"
+				}
+			]
+			title: "Ciudad del End"
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	subtitle: ["Estructuras, biomas y dimensiones por descubrir"]
+	title: "Exploración"
+}

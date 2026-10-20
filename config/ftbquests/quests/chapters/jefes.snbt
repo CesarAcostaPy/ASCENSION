@@ -1,0 +1,1530 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "jefes"
+	group: ""
+	icon: { Count: 1b, id: "minecraft:wither_skeleton_skull" }
+	id: "DD26994344D0F5D8"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Derrota a este jefe (Vanilla)."]
+			icon: { Count: 1b, id: "minecraft:prismarine_shard" }
+			id: "F958B18719064E92"
+			rewards: [
+				{
+					id: "9E273553CCF82248"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					id: "92FF5221F6913C33"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Guardián Anciano"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Derrota a este jefe (Vanilla)."]
+			icon: { Count: 1b, id: "minecraft:nether_star" }
+			id: "0CC13F9B68A5E39A"
+			rewards: [
+				{
+					id: "AAB28FFD30720246"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "3035026DEF4CBE64"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Wither"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Derrota a este jefe (Vanilla)."]
+			icon: { Count: 1b, id: "minecraft:echo_shard" }
+			id: "D4AC9354C02C0D15"
+			rewards: [
+				{
+					id: "207A076F85EA5CCE"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "464BE494BB6DE594"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Warden"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["Derrota a este jefe (Vanilla)."]
+			icon: { Count: 1b, id: "minecraft:dragon_head" }
+			id: "0AC09D31AB244E3F"
+			rewards: [
+				{
+					id: "7DB1DAC8923ECF35"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "F98C5F6E109055CD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Dragón del End"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Derrota a este jefe (L_Ender's Cataclysm)."]
+			icon: { Count: 1b, id: "minecraft:blaze_powder" }
+			id: "74EEFDCACD176192"
+			rewards: [
+				{
+					id: "D74C9606D9F7FCF1"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					id: "9AAE8FA47F9D06F3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ignis"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Derrota a este jefe (L_Ender's Cataclysm)."]
+			icon: { Count: 1b, id: "minecraft:netherite_ingot" }
+			id: "8F6BCC2B4F1F9F7F"
+			rewards: [
+				{
+					id: "8DA64B4E2A39D192"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "BAF6CBFD8B73D5AC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Monstruosidad de Netherita"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: ["Derrota a este jefe (L_Ender's Cataclysm)."]
+			icon: { Count: 1b, id: "minecraft:ender_eye" }
+			id: "F558E2DF6BBED6F8"
+			rewards: [
+				{
+					id: "EC4653FB726C906D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "CC17CB010333DB8A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Guardián del End"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: ["Derrota a este jefe (L_Ender's Cataclysm)."]
+			icon: { Count: 1b, id: "minecraft:wither_skeleton_skull" }
+			id: "836E9470C7A42A98"
+			rewards: [
+				{
+					id: "F98984FE1C6B43D0"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "241B889830132D84"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Heraldo"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: ["Derrota a este jefe (L_Ender's Cataclysm)."]
+			icon: { Count: 1b, id: "minecraft:heart_of_the_sea" }
+			id: "CA35030F1E7E66D3"
+			rewards: [
+				{
+					id: "34055F097233DB04"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "4D01F9477851A38C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Leviatán"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			description: ["Derrota a este jefe (L_Ender's Cataclysm)."]
+			icon: { Count: 1b, id: "minecraft:sand" }
+			id: "5927AC3D60EEE0FE"
+			rewards: [
+				{
+					id: "07EB11A91C3FE25B"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "F1549405730CE3AE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Remanente Ancestral"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			description: ["Derrota a este jefe (L_Ender's Cataclysm)."]
+			icon: { Count: 1b, id: "minecraft:soul_lantern" }
+			id: "6FC6CCBC865B5B86"
+			rewards: [
+				{
+					id: "AC7CDD21ED24F94E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "cataclysm:maledictus"
+					id: "8BA401AD528EB29C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Maledictus"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			description: ["Derrota a este jefe (L_Ender's Cataclysm)."]
+			icon: { Count: 1b, id: "minecraft:trident" }
+			id: "EB87073A66D48098"
+			rewards: [
+				{
+					id: "711277D845F42420"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "cataclysm:scylla"
+					id: "4DAE0CF62A384EF2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Scylla"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			description: ["Derrota a este jefe (Mowzie's Mobs)."]
+			icon: { Count: 1b, id: "minecraft:iron_axe" }
+			id: "850F0F4B138DF4D1"
+			rewards: [
+				{
+					id: "9A30B1DA1AA9825E"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					id: "3BCC24B735929CBB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ferrous Wroughtnaut"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["Derrota a este jefe (Mowzie's Mobs)."]
+			icon: { Count: 1b, id: "minecraft:blue_ice" }
+			id: "C779C48785BA1BED"
+			rewards: [
+				{
+					id: "0E51B01E103CC948"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "mowziesmobs:frostmaw"
+					id: "55E4F64167168F32"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Frostmaw"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: ["Derrota a este jefe (Mowzie's Mobs)."]
+			icon: { Count: 1b, id: "minecraft:sunflower" }
+			id: "836D4EBF136EA088"
+			rewards: [
+				{
+					id: "98E26353C35DB725"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "mowziesmobs:umvuthi"
+					id: "CC545EC24713AF79"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Umvuthi, el Ave Solar"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: ["Derrota a este jefe (Mowzie's Mobs)."]
+			icon: { Count: 1b, id: "minecraft:chiseled_stone_bricks" }
+			id: "AB0E8F641445C02C"
+			rewards: [
+				{
+					id: "15FB04DFE4709A0B"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "mowziesmobs:sculptor"
+					id: "9F52B8B9FE9EEA37"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Tongbi, el Escultor"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: ["Derrota a este jefe (Magia)."]
+			icon: { Count: 1b, id: "minecraft:fire_charge" }
+			id: "EBC8CABC39B15C67"
+			rewards: [
+				{
+					id: "2891C5301178756A"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "irons_spellbooks:fire_boss"
+					id: "36557628FA5CC79D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Eco de Tyros"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["Derrota a este jefe (Magia)."]
+			icon: { Count: 1b, id: "minecraft:skeleton_skull" }
+			id: "9215B6568BD5E6DA"
+			rewards: [
+				{
+					id: "02B4ABB2EBF28859"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "irons_spellbooks:dead_king"
+					id: "D7D006CA6EE073FE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Rey Muerto"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			description: ["Derrota a este jefe (Magia)."]
+			icon: { Count: 1b, id: "minecraft:wither_rose" }
+			id: "548D1F84B0F78B89"
+			rewards: [
+				{
+					id: "A64C62E27A22C41F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "traveloptics:enraged_dead_king"
+					id: "7766229C5391F901"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Rey Muerto Enfurecido"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: ["Derrota a este jefe (Magia)."]
+			icon: { Count: 1b, id: "minecraft:crying_obsidian" }
+			id: "656490554E7CF135"
+			rewards: [
+				{
+					id: "4C63608767E491E7"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "traveloptics:the_nightwarden"
+					id: "54A302E5CCC52373"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "La Guardiana Nocturna"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: ["Derrota a un dragón de fuego, uno de hielo y uno de rayo (salvajes, de cualquier edad)."]
+			icon: { Count: 1b, id: "minecraft:dragon_egg" }
+			id: "A7416343EAD2CD87"
+			rewards: [
+				{
+					id: "1205F3D197D80494"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "iceandfire:fire_dragon"
+					id: "4ED5E4BEDE8175F2"
+					type: "kill"
+					value: 1L
+				},
+				{
+					entity: "iceandfire:ice_dragon"
+					id: "2B13F86CCDB01C36"
+					type: "kill"
+					value: 1L
+				},
+				{
+					entity: "iceandfire:lightning_dragon"
+					id: "33B1658E9A2F1CA0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Matadragones"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: ["Derrota a este jefe (Ice and Fire)."]
+			icon: { Count: 1b, id: "minecraft:slime_ball" }
+			id: "C35164F979A7F5EC"
+			rewards: [
+				{
+					id: "4347A70DC9754FFC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "iceandfire:hydra"
+					id: "EF1D42D1C9CA61ED"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "La Hidra"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			description: ["Derrota a este jefe (Mazmorras)."]
+			icon: { Count: 1b, id: "minecraft:nether_bricks" }
+			id: "4B0DCD0281606D9D"
+			rewards: [
+				{
+					id: "965FC48322E55EDF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "stalwart_dungeons:nether_keeper"
+					id: "3CCE38ED09353666"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Nether Keeper"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			description: ["Derrota a este jefe (Mazmorras)."]
+			icon: { Count: 1b, id: "minecraft:shulker_shell" }
+			id: "CB8CDE04EC93019B"
+			rewards: [
+				{
+					id: "434BE2C48E23F465"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "stalwart_dungeons:shelterer"
+					id: "84CCE70F2758897F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Shelterer"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			description: ["Derrota a este jefe (Mazmorras)."]
+			icon: { Count: 1b, id: "minecraft:ghast_tear" }
+			id: "B3449B696F60F7FC"
+			rewards: [
+				{
+					id: "F90C411E0FD689D1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "stalwart_dungeons:awful_ghast"
+					id: "DAC92E0E087B3562"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Awful Ghast"
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			description: ["Derrota a este jefe (Mazmorras)."]
+			icon: { Count: 1b, id: "minecraft:magma_block" }
+			id: "5106196EFFCFD633"
+			rewards: [
+				{
+					id: "BC0D43BAB5DF1439"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "alexscaves:luxtructosaurus"
+					id: "FB2E1D26DE3832E2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Luxtructosaurus"
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			description: ["Derrota a este jefe (Mazmorras)."]
+			icon: { Count: 1b, id: "minecraft:end_crystal" }
+			id: "31619BCD4A6217D8"
+			rewards: [
+				{
+					id: "BEB42CF982FC8AD1"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "alexsmobs:void_worm"
+					id: "144B451EFA8A3F18"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Gusano del Vacío"
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			description: ["Derrota a este jefe (Illagers y Caos)."]
+			icon: { Count: 1b, id: "minecraft:totem_of_undying" }
+			id: "A0EF990773F05A87"
+			rewards: [
+				{
+					id: "89F5F404F25C70BC"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "illageandspillage:magispeller"
+					id: "B208149C6A4C9E4D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Magispeller"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			description: ["Derrota a este jefe (Illagers y Caos)."]
+			icon: { Count: 1b, id: "minecraft:soul_torch" }
+			id: "F39F14E7177DC850"
+			rewards: [
+				{
+					id: "588FFE1B527E7277"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "illageandspillage:spiritcaller"
+					id: "DB4329C2E5DFCB44"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Spiritcaller"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			description: ["Derrota a este jefe (Illagers y Caos)."]
+			icon: { Count: 1b, id: "minecraft:iron_bars" }
+			id: "648F9584F74FEAC8"
+			rewards: [
+				{
+					id: "42CC50E9CCDD829C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "illageandspillage:freakager"
+					id: "A1E637A11585D414"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Freakager"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			description: ["Derrota a este jefe (Illagers y Caos)."]
+			icon: { Count: 1b, id: "minecraft:cobweb" }
+			id: "ED49A849DD9B4EB7"
+			rewards: [
+				{
+					id: "CCD65977E34EA3B9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "illageandspillage:ragno"
+					id: "8AE0FBF1E1672315"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Ragno"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			description: ["Derrota a este jefe (Illagers y Caos)."]
+			icon: { Count: 1b, id: "minecraft:carved_pumpkin" }
+			id: "523D77D646B6B5A0"
+			rewards: [
+				{
+					id: "5BEDE1AC099DC3E3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:lord_pumpkinhead_withouta_horse"
+					id: "52E38DEDB18CFA9B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Lord Pumpkinhead"
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			description: ["Derrota a este jefe (Illagers y Caos)."]
+			icon: { Count: 1b, id: "minecraft:bone_block" }
+			id: "12D7A1E630BC73C6"
+			rewards: [
+				{
+					id: "AFEDF53F8F1D7558"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:supreme_bonescaller_stage_2"
+					id: "CFEF37CAA6C18779"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Supreme Bonescaller"
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			description: ["Derrota a este jefe (Dungeons and Combat)."]
+			icon: { Count: 1b, id: "minecraft:netherite_sword" }
+			id: "FEC59D15C3E7E45A"
+			rewards: [
+				{
+					id: "3617B1212A196CAC"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "dungeons_and_combat:kamath"
+					id: "E63CBEF77AA2ECF3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Kamath"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			description: ["Derrota a este jefe (Dungeons and Combat)."]
+			icon: { Count: 1b, id: "minecraft:sunflower" }
+			id: "737B3D6F0EF28BCB"
+			rewards: [
+				{
+					id: "9933921C701FE4EF"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "dungeons_and_combat:sunleia"
+					id: "47849DA433315AE8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Sunleia"
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			description: ["Derrota a este jefe (Dungeons and Combat)."]
+			icon: { Count: 1b, id: "minecraft:redstone" }
+			id: "F89DAD69869974A9"
+			rewards: [
+				{
+					id: "C95BE66127CB995C"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "dungeons_and_combat:high_priest"
+					id: "E7ECEC68B2934D6C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Sumo Sacerdote"
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			description: ["Derrota a este jefe (Dungeons and Combat)."]
+			icon: { Count: 1b, id: "minecraft:fire_charge" }
+			id: "999B24E52C7D9D0F"
+			rewards: [
+				{
+					id: "539E122FED8E993C"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "dungeons_and_combat:pyro_knight"
+					id: "2A7FF15443727B48"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Caballero Pirómano"
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			description: ["Derrota a este jefe (Dungeons and Combat)."]
+			icon: { Count: 1b, id: "minecraft:soul_lantern" }
+			id: "964CEADADC977E0B"
+			rewards: [
+				{
+					id: "AEAE6566765B2D44"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "dungeons_and_combat:the_grave_watcher"
+					id: "4D156BB23D11766C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Vigilante de la Tumba"
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			description: ["Derrota a este jefe (Dungeons and Combat)."]
+			icon: { Count: 1b, id: "minecraft:chain" }
+			id: "3AD7C5F1C4371B50"
+			rewards: [
+				{
+					id: "244938DD34F86BEC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "dungeons_and_combat:torture"
+					id: "EDA04340D4F48CBA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Tortura"
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: torres)."]
+			icon: { Count: 1b, id: "minecraft:sandstone" }
+			id: "306CA465E3AB2E48"
+			rewards: [
+				{
+					id: "ECF394D84CEE1FFA"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:furacas"
+					id: "7E0C3D151363E8DD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Furacas"
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: torres)."]
+			icon: { Count: 1b, id: "minecraft:snow_block" }
+			id: "1CB0B270FA13649B"
+			rewards: [
+				{
+					id: "B44A65A3DA758081"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:ice_bear"
+					id: "89FB3FFE6CB56F0E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Oso de Hielo"
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: torres)."]
+			icon: { Count: 1b, id: "minecraft:packed_ice" }
+			id: "7470C391D76F014F"
+			rewards: [
+				{
+					id: "710725DE476BF457"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:ice_lord"
+					id: "86097737393B5648"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Señor del Hielo"
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: torres)."]
+			icon: { Count: 1b, id: "minecraft:magma_cream" }
+			id: "3B2DE3FBCC014656"
+			rewards: [
+				{
+					id: "5AED0242BA545D24"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:lava_lord"
+					id: "F10A4D67BA7AA8C1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Señor de la Lava"
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: torres)."]
+			icon: { Count: 1b, id: "minecraft:lava_bucket" }
+			id: "E42E2A7A422E2930"
+			rewards: [
+				{
+					id: "16C3105BEF670FA1"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:lava_god"
+					id: "6F5F1D8CF5E9D63E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Dios de la Lava"
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: torres)."]
+			icon: { Count: 1b, id: "minecraft:bone" }
+			id: "7F4F87FC5518BC65"
+			rewards: [
+				{
+					id: "B86C1CC26CB1560A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:skeleton_god"
+					id: "9D01242B65F1001B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Dios Esqueleto"
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: torres)."]
+			icon: { Count: 1b, id: "minecraft:crying_obsidian" }
+			id: "174D7F9155F5E2EB"
+			rewards: [
+				{
+					id: "48331CD5A6FF529A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:the_chaos"
+					id: "7B60A43B929C970B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Caos"
+			x: 12.0d
+			y: 16.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: torres)."]
+			icon: { Count: 1b, id: "minecraft:sculk_shrieker" }
+			id: "A22E2D38FB45902E"
+			rewards: [
+				{
+					id: "98E22E0F01904D80"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:the_silence_death"
+					id: "B4EB575DD161F6BF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "La Muerte Silenciosa"
+			x: 14.0d
+			y: 16.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: grandes jefes)."]
+			icon: { Count: 1b, id: "minecraft:basalt" }
+			id: "A765311A023B4849"
+			rewards: [
+				{
+					id: "F6A321FE43A65339"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:basalt_guardian"
+					id: "0F44E64F2BD88DCA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Guardián de Basalto"
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: grandes jefes)."]
+			icon: { Count: 1b, id: "minecraft:wither_rose" }
+			id: "901B78D88E2715CF"
+			rewards: [
+				{
+					id: "8D06E11DB1FA738A"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:cursed_beast"
+					id: "67E27463946C2508"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "La Bestia Maldita"
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: grandes jefes)."]
+			icon: { Count: 1b, id: "minecraft:bone" }
+			id: "38DC87DA1F4769BB"
+			rewards: [
+				{
+					id: "A65D055D5EB15327"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:wendingo"
+					id: "32A8F49EE8D52786"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Wendingo"
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: grandes jefes)."]
+			icon: { Count: 1b, id: "minecraft:rotten_flesh" }
+			id: "3B8D34BAFC0881AC"
+			rewards: [
+				{
+					id: "7A31692A8978B582"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:abomination"
+					id: "E935581898DB627E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "La Abominación"
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: grandes jefes)."]
+			icon: { Count: 1b, id: "minecraft:netherite_helmet" }
+			id: "5BA4264CA6FA06A1"
+			rewards: [
+				{
+					id: "9410246D01130A79"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:abyssal_knight"
+					id: "6E29159F2BEFE34A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Caballero Abisal"
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: grandes jefes)."]
+			icon: { Count: 1b, id: "minecraft:end_crystal" }
+			id: "8EBB6F81786F560E"
+			rewards: [
+				{
+					id: "DE6598F148D26F29"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:the_queen_of_the_abyss"
+					id: "FC81F544AD2ED79B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "La Reina del Abismo"
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: errantes). No tiene torre: aparece muy rara vez suelto en su bioma."]
+			icon: { Count: 1b, id: "minecraft:iron_block" }
+			id: "7CB2FB77B5EDE5A7"
+			rewards: [
+				{
+					id: "FD927B8C1A2D3C61"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:golem_king"
+					id: "83B0AC2EC90B378F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Rey Gólem"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: errantes). No tiene torre: aparece muy rara vez suelto en su bioma."]
+			icon: { Count: 1b, id: "minecraft:jack_o_lantern" }
+			id: "7C41C7439EC7E8D7"
+			rewards: [
+				{
+					id: "BF69D471EE2BD2FE"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:pumpking_lord"
+					id: "08DD856AF419469F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Señor Calabaza"
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: errantes). No tiene torre: aparece muy rara vez suelto en su bioma."]
+			icon: { Count: 1b, id: "minecraft:netherrack" }
+			id: "9E899B7B4423516D"
+			rewards: [
+				{
+					id: "A161FAE38A4B5D92"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:demon_general"
+					id: "119EF0B227514EBB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El General Demonio"
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: errantes). No tiene torre: aparece muy rara vez suelto en su bioma."]
+			icon: { Count: 1b, id: "minecraft:crimson_nylium" }
+			id: "D3381DCBD408BCFC"
+			rewards: [
+				{
+					id: "C8E6B9955B04EF4B"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:demonic_king"
+					id: "0D9239194364FF8E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Rey Demonio"
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: errantes). No tiene torre: aparece muy rara vez suelto en su bioma."]
+			icon: { Count: 1b, id: "minecraft:end_stone" }
+			id: "42B2B25521D5731D"
+			rewards: [
+				{
+					id: "35E5352D4612D653"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:end_beast"
+					id: "BA9D5F2D7445944F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "La Bestia del End"
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			description: ["Derrota a este jefe (Panascraft: errantes). No tiene torre: aparece muy rara vez suelto en su bioma."]
+			icon: { Count: 1b, id: "minecraft:dragon_breath" }
+			id: "2DA35F34051A44B4"
+			rewards: [
+				{
+					id: "C6A540CFADC56811"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "panascraftrpgmod:void_dragon"
+					id: "775129FFC106C693"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Dragón del Vacío"
+			x: 10.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["F958B18719064E92" "0CC13F9B68A5E39A" "D4AC9354C02C0D15" "0AC09D31AB244E3F" "74EEFDCACD176192" "8F6BCC2B4F1F9F7F" "F558E2DF6BBED6F8" "836E9470C7A42A98" "CA35030F1E7E66D3" "5927AC3D60EEE0FE" "6FC6CCBC865B5B86" "EB87073A66D48098" "850F0F4B138DF4D1" "C779C48785BA1BED" "836D4EBF136EA088" "AB0E8F641445C02C" "EBC8CABC39B15C67" "9215B6568BD5E6DA" "548D1F84B0F78B89" "656490554E7CF135" "A7416343EAD2CD87" "C35164F979A7F5EC" "4B0DCD0281606D9D" "CB8CDE04EC93019B" "B3449B696F60F7FC" "5106196EFFCFD633" "31619BCD4A6217D8" "A0EF990773F05A87" "F39F14E7177DC850" "648F9584F74FEAC8" "ED49A849DD9B4EB7" "523D77D646B6B5A0" "12D7A1E630BC73C6" "FEC59D15C3E7E45A" "737B3D6F0EF28BCB" "F89DAD69869974A9" "999B24E52C7D9D0F" "964CEADADC977E0B" "3AD7C5F1C4371B50" "306CA465E3AB2E48" "1CB0B270FA13649B" "7470C391D76F014F" "3B2DE3FBCC014656" "E42E2A7A422E2930" "7F4F87FC5518BC65" "174D7F9155F5E2EB" "A22E2D38FB45902E" "A765311A023B4849" "901B78D88E2715CF" "38DC87DA1F4769BB" "3B8D34BAFC0881AC" "5BA4264CA6FA06A1" "8EBB6F81786F560E" "7CB2FB77B5EDE5A7" "7C41C7439EC7E8D7" "9E899B7B4423516D" "D3381DCBD408BCFC" "42B2B25521D5731D" "2DA35F34051A44B4"]
+			description: ["Has derrotado a todos los jefes del mundo. Tu nombre quedará en la leyenda."]
+			icon: { Count: 1b, id: "minecraft:nether_star" }
+			id: "1AA46A542D3D714B"
+			rewards: [
+				{
+					id: "F42BD733F975AE1C"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "15D2A591A5A1F0D0"
+					item: { Count: 1b, id: "minecraft:enchanted_golden_apple" }
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [
+				{
+					id: "A6B4E10A4109EDCD"
+					type: "checkmark"
+				}
+			]
+			title: "Leyenda de Gears & Grimoires"
+			x: 18.0d
+			y: 10.0d
+		}
+	]
+	subtitle: ["Derrota a todos los jefes del mundo"]
+	title: "Cazador de Jefes"
+}

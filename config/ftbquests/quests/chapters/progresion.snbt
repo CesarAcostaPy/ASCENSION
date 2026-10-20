@@ -1,0 +1,389 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progresion"
+	group: ""
+	icon: { Count: 1b, id: "minecraft:compass" }
+	id: "222E64BFBD8CC57C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Bienvenido a Gears & Grimoires. Fabrica una mesa de trabajo y un horno para empezar."]
+			icon: { Count: 1b, id: "minecraft:crafting_table" }
+			id: "919DF46027E45F12"
+			rewards: [
+				{
+					id: "0013C9172812A9CB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6D2FF8C4BDFB5BB5"
+					item: { Count: 1b, id: "minecraft:crafting_table" }
+					type: "item"
+				},
+				{
+					count: 1L
+					id: "6B67B29735BB634D"
+					item: { Count: 1b, id: "minecraft:furnace" }
+					type: "item"
+				}
+			]
+			title: "Primeros pasos"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["919DF46027E45F12"]
+			description: ["Funde hierro y hazte con un pico de hierro."]
+			icon: { Count: 1b, id: "minecraft:iron_ingot" }
+			id: "3298019B88A57821"
+			rewards: [
+				{
+					id: "299593D2C01A42BB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "436AD3A3F4CAEF69"
+					item: { Count: 1b, id: "minecraft:iron_ingot" }
+					type: "item"
+				},
+				{
+					count: 1L
+					id: "16D13920CB844E74"
+					item: { Count: 1b, id: "minecraft:iron_pickaxe" }
+					type: "item"
+				}
+			]
+			title: "Edad del hierro"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["919DF46027E45F12"]
+			description: ["Dormir evita el insomnio: cada noche sin dormir hace más probables los eventos nocturnos."]
+			icon: { Count: 1b, id: "minecraft:white_bed" }
+			id: "50966E79771F84DE"
+			rewards: [
+				{
+					id: "27C1EDDBA3C365D1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "206A34727440F389"
+					item: { Count: 1b, id: "minecraft:white_bed" }
+					type: "item"
+				}
+			]
+			title: "Un lugar donde dormir"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3298019B88A57821"]
+			description: ["Más espacio para explorar. Puedes mejorarla más adelante."]
+			icon: { Count: 1b, id: "sophisticatedbackpacks:backpack" }
+			id: "3D06948D40C90A41"
+			rewards: [
+				{
+					id: "B71D21EF68E7C411"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6F898A6A89663698"
+					item: { Count: 1b, id: "sophisticatedbackpacks:backpack" }
+					type: "item"
+				}
+			]
+			title: "Mochila"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3298019B88A57821"]
+			description: ["Elige una clase hablando con su artesano en una aldea (guerrero, arquero, paladín, sacerdote, pícaro, mago arcano, de fuego o de escarcha, berserker, forcemaster...). Cuando la tengas, marca esta misión."]
+			icon: { Count: 1b, id: "minecraft:book" }
+			id: "0301356987DA9ABB"
+			rewards: [
+				{
+					id: "04EC9908210B27BF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "3169C2829ACFAD56"
+					type: "checkmark"
+				}
+			]
+			title: "Elige tu camino"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3298019B88A57821"]
+			description: ["Consigue diamantes y un pico de diamante."]
+			icon: { Count: 1b, id: "minecraft:diamond" }
+			id: "7DCE7CF1E51A875C"
+			rewards: [
+				{
+					id: "6817B7EB68368C4C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "2369F40A63EE2C52"
+					item: { Count: 1b, id: "minecraft:diamond" }
+					type: "item"
+				},
+				{
+					count: 1L
+					id: "443A7AF74F769ACD"
+					item: { Count: 1b, id: "minecraft:diamond_pickaxe" }
+					type: "item"
+				}
+			]
+			title: "Diamantes"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DCE7CF1E51A875C"]
+			description: ["Una mesa de encantamientos y un yunque."]
+			icon: { Count: 1b, id: "minecraft:enchanting_table" }
+			id: "D699B9517C36789A"
+			rewards: [
+				{
+					id: "9F9F1E0BD6D56C85"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "EC81A56164589525"
+					item: { Count: 1b, id: "minecraft:enchanting_table" }
+					type: "item"
+				},
+				{
+					count: 1L
+					id: "0659D1143E2B446D"
+					item: { Count: 1b, id: "minecraft:anvil" }
+					type: "item"
+				}
+			]
+			title: "Encantamientos"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DCE7CF1E51A875C"]
+			description: ["Las waystones te permiten viajar rápido entre lugares descubiertos."]
+			icon: { Count: 1b, id: "waystones:waystone" }
+			id: "E608F92C801C7342"
+			rewards: [
+				{
+					id: "DBD9C4C72EE7C307"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "B369BC6432BA4D5F"
+					item: { Count: 1b, id: "waystones:waystone" }
+					type: "item"
+				}
+			]
+			title: "Red de waystones"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7DCE7CF1E51A875C"]
+			description: ["Construye un portal y entra al Nether. Ojo: lejos del spawn los monstruos son más fuertes."]
+			icon: { Count: 1b, id: "minecraft:obsidian" }
+			id: "EEBC60F339445641"
+			rewards: [
+				{
+					id: "8B96C32384472695"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "B3882E00E3817C8D"
+					type: "dimension"
+				}
+			]
+			title: "Al Nether"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EEBC60F339445641"]
+			description: ["Encuentra una fortaleza y consigue varas de blaze."]
+			icon: { Count: 1b, id: "minecraft:blaze_rod" }
+			id: "CDD20A61F8041083"
+			rewards: [
+				{
+					id: "C342A49DC449D642"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/find_fortress"
+					criterion: ""
+					id: "32423FA338CD6198"
+					type: "advancement"
+				},
+				{
+					count: 6L
+					id: "4B96C985DD760807"
+					item: { Count: 1b, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+			]
+			title: "Fortaleza del Nether"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["EEBC60F339445641"]
+			description: ["Busca escombros ancestrales y funde tu primer lingote de netherita."]
+			icon: { Count: 1b, id: "minecraft:netherite_ingot" }
+			id: "A0ACE3BAFA10AA6C"
+			rewards: [
+				{
+					id: "4C657CB0086F7A1E"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/obtain_ancient_debris"
+					criterion: ""
+					id: "3810E2D505614D7E"
+					type: "advancement"
+				},
+				{
+					count: 1L
+					id: "863960B498069454"
+					item: { Count: 1b, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+			]
+			title: "Netherita"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["CDD20A61F8041083"]
+			description: ["Sigue un ojo de ender hasta la fortaleza."]
+			icon: { Count: 1b, id: "minecraft:ender_eye" }
+			id: "00AA793002BF8F3B"
+			rewards: [
+				{
+					id: "7859624029CFDF8E"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/follow_ender_eye"
+					criterion: ""
+					id: "8CCB14A157A0FEF2"
+					type: "advancement"
+				}
+			]
+			title: "Ojo de ender"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00AA793002BF8F3B"]
+			description: ["Entra al End. Allí te espera el dragón."]
+			icon: { Count: 1b, id: "minecraft:end_stone" }
+			id: "1CAE97AD351EE8DF"
+			rewards: [
+				{
+					id: "E1A11917FA7F9D8E"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "FBDCCA9C58C7FC3D"
+					type: "dimension"
+				}
+			]
+			title: "El End"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CAE97AD351EE8DF"]
+			description: ["Encuentra una ciudad del End y consigue unas élitros."]
+			icon: { Count: 1b, id: "minecraft:elytra" }
+			id: "D9D42924CE98DBC2"
+			rewards: [
+				{
+					id: "D6F6F6BF81C3AF4B"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecraft:end/find_end_city"
+					criterion: ""
+					id: "4167F9840FAF226F"
+					type: "advancement"
+				},
+				{
+					count: 1L
+					id: "858C2F5EBB665DFC"
+					item: { Count: 1b, id: "minecraft:elytra" }
+					type: "item"
+				}
+			]
+			title: "Más allá del dragón"
+			x: 14.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["La guía del pack: de la primera mesa de trabajo al End"]
+	title: "Progresión"
+}
